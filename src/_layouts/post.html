@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="{{page.gradient}} card" style="height: {{page.length | exchange_rate}}em;">
+  <span class="start-time">{{page.date| date: "%H:%M"}}</span>
+  <div class="front">
+    <h1>{{ page.title }}</h1>
+    <!-- <a href="https://twitter.com/intent/tweet?button_hashtag=LS&text=%23FuturesForum" class="twitter-hashtag-button" data-size="large" data-related="notionparallax">Tweet #LS</a> -->
+    <article class="post-content">
+    {{ content }}
+  </article>
+  </div>
+  <div class="back"><h1>OMG!</h1></div>
+</div>

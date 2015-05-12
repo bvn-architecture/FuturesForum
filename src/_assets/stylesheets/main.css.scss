@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: 'Blender-book';
+    src: url('../static/blender/blenderpro-book-webfont.eot'                );
+    src: url('../static/blender/blenderpro-book-webfont.eot?#iefix'         ) format('embedded-opentype'),
+         url('../static/blender/blenderpro-medium-webfont.woff'             ) format('woff'),
+         url('../static/blender/blenderpro-book-webfont.ttf'                ) format('truetype'),
+         url('../static/blender/blenderpro-book-webfont.svg#blender_probook') format('svg');
+}
+// @font-face{
+//     font-family: 'Blender-bold';
+//     src: url('../static/blender/blenderpro-bold-webfont.eot'                );
+//     src: url('../static/blender/blenderpro-bold-webfont.eot?#iefix'         ) format('embedded-opentype'),
+//          url('../static/blender/blenderpro-bold-webfont.woff'               ) format('woff'),
+//          url('../static/blender/blenderpro-bold-webfont.ttf'                ) format('truetype'),
+//          url('../static/blender/blenderpro-bold-webfont.svg#blender_probold') format('svg');
+// }
+@font-face{
+    font-family: 'Blender-medium';
+    src: url('../static/blender/blenderpro-medium-webfont.eot'                  );
+    src: url('../static/blender/blenderpro-medium-webfont.eot?#iefix'           ) format('embedded-opentype'),
+         url('../static/blender/blenderpro-medium-webfont.woff'                 ) format('woff'),
+         url('../static/blender/blenderpro-medium-webfont.ttf'                  ) format('truetype'),
+         url('../static/blender/blenderpro-medium-webfont.svg#blender_promedium') format('svg');
+}
+
+// Our variables
+$base-font-family:   'Blender-book',  Arial, sans-serif;
+// $bold-font-family: 'Blender-bold', "Blender", Arial, sans-serif;
+$medium-font-family: 'Blender-medium', Arial, sans-serif;
+$base-font-size:   19px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       rgba(17,17,17,1);
+$background-color: rgba(253,253,253,1);
+$brand-color:      rgba(42,122,226,1);
+
+$grey-color:       rgba(130,130,130,1);
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+$transition-time:  0.4s;
+$menu-height:      18em;
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// from earlier
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-family: $base-font-family;
+    padding-bottom: 100vh;
+}
+
+h1 {
+    margin: 0;
+    line-height: 100%;
+}
+
+p {
+    margin-top: 0;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting",
+        "menu",
+        "cards",
+        "gradients",
+        "map",
+        "essays",
+        "big-questions",
+        "time-marker",
+        "jump",
+        "icons";
+
+.stack-layer {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    transition: all $transition-time;
+}
+
+.noscroll{overflow: hidden;}
+
+
+
+svg#plane {
+  -webkit-transition: -webkit-transform 5s linear;
+          transition: transform 5s linear;
+  -webkit-transform-origin: 50% 500%;
+      -ms-transform-origin: 50% 500%;
+          transform-origin: 50% 500%;
+  -webkit-transform-style: preserve-3D;
+          transform-style: preserve-3D;
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg); 
+}

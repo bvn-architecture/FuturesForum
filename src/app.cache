@@ -1,0 +1,45 @@
+CACHE MANIFEST
+
+#html pages - all svgs are embedded I think
+index.html
+essays/index.html
+icons/index.html
+other-pages/bigquestions.html
+other-pages/map.html
+
+#fonts
+static/blender/blenderpro-bold-webfont.eot
+static/blender/blenderpro-bold-webfont.svg
+static/blender/blenderpro-bold-webfont.ttf
+static/blender/blenderpro-bold-webfont.woff
+static/blender/blenderpro-book-webfont.eot
+static/blender/blenderpro-book-webfont.svg
+static/blender/blenderpro-book-webfont.ttf
+static/blender/blenderpro-book-webfont.woff
+#static/blender/blenderpro-bookitalic-webfont.eot
+#static/blender/blenderpro-bookitalic-webfont.svg
+#static/blender/blenderpro-bookitalic-webfont.ttf
+#static/blender/blenderpro-bookitalic-webfont.woff
+#static/blender/blenderpro-medium-webfont.eot
+#static/blender/blenderpro-medium-webfont.svg
+#static/blender/blenderpro-medium-webfont.ttf
+#static/blender/blenderpro-medium-webfont.woff
+
+#icons
+static/app-icons/black-circle.png
+static/app-icons/logo-120.png
+static/app-icons/logo-128.png
+static/app-icons/logo-144.png
+static/app-icons/logo-152.png
+static/app-icons/logo-180.png
+static/app-icons/logo-192.png
+static/app-icons/logo-76.png
+static/app-icons/logo-96.png
+
+#external js (our js is embedded)
+https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js
+
+http://platform.twitter.com/widgets.js
+
+NETWORK:
+*

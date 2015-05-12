@@ -1,0 +1,13 @@
+.essay-index{
+	background: -webkit-linear-gradient(top, rgba(235, 148, 64, 1) 0%, rgba(156, 109, 124, 1) 100%); 
+	background:   linear-gradient(to bottom, rgba(235, 148, 64, 1) 0%, rgba(156, 109, 124, 1) 100%);
+	.title, .author{display:block;}
+	.title{}
+	.author{
+		line-height: 1;
+		float: right;
+		width: 100px;
+		text-align: center;
+	}
+	.card{height: 10em;}
+}

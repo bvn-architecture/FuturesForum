@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="stack-layer out">
+
+  {% for post in site.posts reversed  %}
+  <div    id="{{ post.title | slugify }}"
+       class="card {{post.gradient}}"
+       style="height: {{post.length | exchange_rate}}rem;">
+    <span class="start-time">{{ post.date | date: "%H:%M" }}</span>
+    <div class="front">
+      <article class="post-content">
+        <div class="meta-box">
+          {% if post.CPD-points %}
+            <span class="number">{{post.CPD-points}}</span> {% if post.CPD-type %}{{post.CPD-type}} CPD points{% endif %}
+          {% endif %}
+          <a class="twitter-feed"
+             href="https://twitter.com/intent/tweet?text={% for hashtag in post.hashtags %}%23{{ hashtag | uri_escape }}%20{% endfor %}{% for mention in post.mentions %}%40{{ mention | uri_escape }}%20{% endfor %}{% if post.tweet-text %}{{ post.tweet-text | uri_escape }}{% endif %}"
+             title="Start a tweet with: {% for hashtag in post.hashtags %} {{ hashtag }} {% endfor %}{% for mention in post.mentions %} {{ mention }} {% endfor %} {% if post.tweet-text %}{{ post.tweet-text }}{% endif %}">
+             {% include twitter-bird.svg %} Tweet this</a>
+        </div>
+      <h1>{{ post.title }}</h1>
+        {{ post.content }}
+        <div class="the-map">{% include ff-map.svg %}</div>
+        <div class="ff-twitter-widget" data-widget-id="{{ post.twitter-widget-id }}">
+        <!-- %3AarchitectureBVN%20OR%20from%3Ajamesgrose%20OR%20from%3AMcfblair%20OR%20from%3Aikirkland%20OR%20from%3AFZ_6%20OR%20from%3AFionaY27%20OR%20from%3Anotionparallax%20OR%20from%3Acr_tate%20OR%20from%3Achrismury%20OR%20from%3Aonimod -->
+       <!--  <a  class="twitter-timeline"
+            href=""
+            data-widget-id="{{ post.twitter-widget-id }}"
+            data-theme="light"
+            data-link-color="rgba(150,150,150,1)"
+            data-related=""
+            data-chrome="noheader nofooter noborders transparent noscrollbar"
+            data-tweet-limit="20"
+            data-aria-polite="polite"
+            width=""
+            height=""> -->
+          </a>
+          </div>
+          <div class="post-footer">Close</div>
+      </article>
+    </div>
+</div>
+{% endfor %}
+{% include marker.html %}
+</div>
+{% include jump.html %}

@@ -1,0 +1,182 @@
+---
+layout: essay
+page-type: AOOTF
+title: INTERVIEW WITH AN ARCHITECT
+author: Joseph O&#39;Meara
+---
+
+<p class="introduction">The 21st century ushered in a radically different world than that faced by our predecessors. The rise of globalisation and the IT revolution, new technological advancements in 3D printing and Virtual and Augmented Reality have changed the way architects approach design. The increasing decline of natural resources and the threat of environmental degradation have produced a complex design environment not witnessed before. Today, in 2030, I speak with Francis Lee Williams, managing director of Williams &amp; Associates, one of Australia’s leading architectural practices about how architecture and the architectural office has developed over the past fifteen years.</p>
+<p class="attribution FLW">Architect: Francis Lee Williams</p>
+<p class="attribution EMT">Interviewer: Elizabeth May Toohey</p>
+<hr>
+<p class="editor">Editor’s note: This version is slightly different to the one in the printed version. I printed a preliminary draft. This is my fault and shouldn’t reflect on the author at all. This is the correct version.</p>
+<p class="interview interview-first EMT">EMT I would like to begin by discussing some of the technological developments that have occurred over the past 15 years and how these developments have influenced the architecture and construction industry today.</p>
+<p class="interview interview-first FLW">FLW The world we live in today is very much both physical and digital, with the boundaries between the two becoming increasingly vague. The use of Virtual and Augmented Reality during the design phases for example, have become commonplace in many architectural offices, including Williams &amp; Associates. In our office, we now have dedicated VR rooms with spatially immersive projected displays, Head-Mounted Displays and Mobile Augmented Reality Glasses where users interact and experience the virtual model in a fully immersive way, controlling their view by turning their head or stretching their hand. These technological advances have enabled a more intuitive interaction with the digital model, where architects can easily flip between an enveloping perspective view to a plan or section or detail with merely the flick of a wrist.</p>
+<blockquote class="pull"><p>“Multiple users can now inhabit the same virtual space at the same time which provides the ideal context for a design team to examine spatial problems in a collaborative setting regardless of where they may be viewing from in the world.”</p></blockquote>
+<p class="interview FLW">With Virtual Reality Aided Design we can view multiple design options instantly and switch between the architectural, structural, mechanical or the hydraulic Digital Model to help resolve design and coordination issues or highlight clashes. We can overlay information within the 3D space like never before. We can visualise the sun as it moves around the digital building, specific lateral wind loads and even earthquake loads. We can test structural capabilities of proposed materials under augmented loads and view proposed construction methods or even overlay how environmentally sustainable the building will be once complete. Multiple users can now inhabit the same virtual space at the same time which provides the ideal context for a design team to examine spatial problems in a collaborative setting regardless of where they may be viewing from in the world. With the recent satellite tracking developments we can now also augment a real site with the intended design at full scale and provide actual walking tours for clients and users. On these tours we can overlay physical presentation material such as what it will cost and how much time it will take to construct. VR and AR has allowed us to communicate with clients like never before, by fully immersing them in the digital design within its full context well before construction has commenced.</p>
+<p class="interview interview-first EMT">EMT There has been reluctance from many architectural offices to integrate virtual and augmented reality into the workforce. In fact, studies have indicated that the continual shifting of the eyes which occur when using Head-Mounted Displays and Glasses compromises both cognitive and physical performance and can lead to exhaustion, disorientation, stress and anxiety. How has Williams and Associates addressed these concerns?</p>
+<blockquote class="pull"><p>“VR and AR has allowed us to communicate with clients like never before, by fully immersing them in the digital design within its full context well before construction has commenced.”</p></blockquote>
+<p class="interview interview-first FLW">FLW There will always be resistance to change. I believe it was Buckminster Fuller who once said “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.” I believe this quote is relevant because in many ways the new architectural reality is virtual and the old way of designing and documenting has become increasingly obsolete.</p>
+<p class="interview FLW">I understand people’s reluctance to change, for the reasons you have given but also because there is a big learning curb involved in integrating new systems like this into the office. Adequate staff training is required and new job titles need to be developed, such as the ‘virtual’ model manager. However the world we live in today has a digital zeitgeist and it’s the nature of architecture that if you want to win the next big commission you need to keep up with the times.</p>
+<p class="interview FLW">With regard to the health hazards, Williams &amp; Associates have addressed these concerns by enforcing mandatory ‘Tech’ free time-outs to encourage downtime. Staff have access to communal outdoor spaces to ‘unplug’ which we believe helps foster creativity. The indoor environment quality at our office is excellent, with ample natural daylight, external views, plant filled spaces, sofas and cafe tables and even sleeping areas.</p>
+<p class="interview FLW">Our office is one which promotes flexibility, adaptability and mobility. Flexibility is key, flexibility in meeting and entertaining spaces, private spaces for focus work and above all, collaborative spaces. There is also flexibility in the technology we use so employees aren’t tied to a specific desk or workplace but instead are able to move about the office and are free to choose where they will work on a daily basis, including at places outside the office as more and more people are working remotely with the office just one of many destinations.</p>
+<p class="interview interview-first EMT">EMT Many construction companies have also jumped on the Augmented Reality or AR bandwagon. In what ways do you think AR has affected the way buildings are constructed today?</p>
+<p class="interview interview-first FLW">FLW Well, for starters, BIM data can now be geolocated on a construction site to aid with the site set out and establish site boundaries or exact alignment information. 3D instructions can now be programmed and viewed within the digital model to provide task support for assembly processes and easy access to specifications or relevant standards. During construction with AR builders can see through walls on a construction site to view pipes and mechanical ducting behind. Even after the building is complete AR overlays can now assist with complex maintenance and repair tasks on building systems. Construction has become more like assembly then what we understood it to be, say 15 years ago. There is now often a direct transition from digital to production, with digital content been sent directly to 3D printing factories for prefabrication.</p>
+<p class="interview interview-first EMT">EMT Let’s talk more about 3D printing and the growth of pre-fabricated componentry within the construction industry. Multi-axis, multi-material, robotic arms can now print concrete, brick and steel components and several whole 3D printed buildings have surfaced in Sydney. With faster project completions, material efficiency, reduced labour, significant cost reductions, transportation savings and higher environmental sustainability, some have argued that 3D printing or digital rapid pre-fabrication has spawned the third era of construction technology. How has this 3D printing technology influenced how Williams &amp; Associates approach design?</p>
+<p class="interview interview-first FLW">FLW Yes, it’s an interesting subject, rapid construction systems like prefabricated 3D printed building elements and CNC routed components which are based in a workshop then transported to site for quick assembly have changed the way we think about the construction process. The actual assembly process itself has also changed. There are many examples today where machines are utilised to automate acts like bricklaying with super speed and superhuman accuracy. I think in the future we will be able to utilise more robotics to complete these tasks more efficiently than ever before.</p>
+<blockquote class="pull"><p>“There is now often a direct transition from digital to production, with digital content been sent directly to 3D printing factories for prefabrication.”</p></blockquote>
+<p class="interview FLW">What I find most interesting about 3D printing is the use of additive manufacturing which utilises materials far more efficiently by placing material only where it is required as opposed to traditional steel or concrete structures, which have a high level of unnecessary material. This has resulted in lighter structural elements which allow new forms and shapes which have a direct relationship to the specific loads and support conditions. This fact has pushed parametricism which utilises scripting instead of sketching to generate forms. With 3D printing, complex, organic double curved structures that were previously considered impossible to build can now easily be fabricated. We have experimented with parametric design paired with 3D printing ourselves and believe we have successfully generated interesting forms with asymmetrical balance. However, I think it’s important to note that I believe there are too many buildings being designed today with this technology in ‘scripting’ offices which have uncomfortable, discordant geometries which feel jarring and disorientating. Just because the technology makes it easier for architects to design and fabricate unusual forms doesn’t necessarily mean that we should. When it comes down to it I believe that a building should be about the human interface with the physical thing, a purposeful architecture should be relatable to the inhabitant, be cohesive with ideas and meaning and be inherently performative.</p>
+<p class="interview interview-first EMT">EMT I have to ask, with the technological advances in architecture which you have described, is there even a need for architects and engineers anymore? Do you think it’s possible that in the near future a programmer could take the architect’s place and the machine will do the rest?</p>
+<blockquote class="pull"><p>“Just because the technology makes it easier for architects to design and fabricate unusual forms doesn’t necessarily mean that we should.”</p></blockquote>
+<p class="interview interview-first FLW">FLW No, I don’t think so. I believe the ‘machine’ is only ever as good as the designer behind it. While I agree that technology has allowed us to access an unprecedented amount of information, it is still just a tool. Software doesn’t acknowledge the creative process. Architecture is born from an idea, a central idea which is project specific and which is synthesised in the human brain. This idea can be derived from a whole assortment of influences including issues which may be more transcendent than the architecture itself. Software cannot possibly appreciate this. An architect is taught and educated in the needs of society and gives a design purpose so that it can respond to natural human occupation. This is the same for engineers who need to use their intellect and feelings to respond to a specific design issue. It is inevitable that there will be design issues or complications through the design process. This is partly because we are designing for people and people often have fluctuating requests. It is the design teams job to be fast on their feet and be prepared to abandon an idea to help the project get to where it needs to go next and to achieve an integrated whole. Software couldn’t respond to this without a skilled team operating it because it is a very human response.</p>
+<p class="interview interview-first EMT">EMT Do you think that the traditional model of architect with a large team of consultants including a structural engineer has changed?</p>
+<p class="interview interview-first FLW">FLW Yes, generally speaking the design team is a much more collaborative and integrated. I’m not saying that the architect’s role has declined but I think that the collaboration is much more defined with specific experts working towards a common goal. The complexity of the 21st century’s problems and the environmentally sustainable obligations that buildings perform highly throughout their life, has caused this shift.</p>
+<p class="interview FLW">Not so long ago, it was the architect’s job to design and the engineer’s job to size this design for construction. Today the boundaries between the two disciplines have dissolved and we work together as one. For example, it used to be common that there was a designated structural zone to a building and the architect effectively ‘dressed’ the structure up by cladding around it and concealing it. Today the form itself is often both structural and architectural which I think is a far more sustainable approach.</p>
+<p class="interview interview-first EMT">EMT I’m glad you raised environmental sustainability. Can we talk about Australia’s changing environmental conditions and the influences they have had on the buildings we design. I am particularly interested in the new green building typology of Vertical Farming.</p>
+<p class="interview interview-first FLW">FLW Vertical Farming emerged in Australia over the last 10 years in response to climate change, the food crises and crippling water shortages. After continuing droughts caused the ban on irrigation at the Murray Darling Basin it caused ruin to many farmers. The basin once provided 85% of the water used nationally for agricultural irrigation. A ‘food crises’ emerged in Australia and with the ever increasing food price rises, It soon became clear that we needed to abandon the ‘traditional’ agricultural model and replace it with controlled environment agriculture or CEA.</p>
+<p class="interview FLW">With the growing population and increasing urbanization it was also evident that urban agriculture was needed to grow food sustainably at a high yield scale in dense metropolitan regions like Sydney. Space and decreased fertile land were clearly a problem which ultimately led to the rise of Vertical Farming in Australia.</p>
+<p class="interview interview-first EMT">EMT One of your most recently completed buildings – ‘Greendale’ is an 8 Greenstar rated high density, mixed-use high-rise which incorporates a Vertical Farm. I would like to finish today with you talking about this award winning building.</p>
+<p class="interview interview-first FLW">FLW Greendale combines one hectares worth of growing space in a vertical farm with a 40 floor office tower, an apartment tower and commercial/retail in the podium level at the new agricultural precinct in Black Wattle Bay, Sydney. The Vertical Farm component is basically a series of greenhouses stacked vertically. The controlled indoor environment means no weather related crop failures due to droughts, floods or pests and year round crop production organically grown in a soilless hydroponic growing medium. The crops in the controlled environment don’t need herbicides, pesticides or fertilizers and by recycling black water we have virtually eliminated agricultural runoff which is the world’s greatest source of pollution. Australia is the driest inhabited continent in the world and with global warming and the changing climate, water shortages will continue to be a problem. Greendale’s Vertical Farm addresses this by using 95% less water to grow crops than traditional methods and the total water supply for the building is harvested and treated rainwater. Oil shortages and oil price rises are another big issue and reducing the distance from ‘paddock to plate’ has significantly lowered the amount of fossil fuels needed to deliver food to the consumer, reducing the amount of greenhouse gas emissions.</p>
+<p class="interview FLW">Greendale is a highly technological, zero carbon emission ‘eco’ high-rise. The structure employs several energy producing technologies including a solar array and wind turbines on the roof and a methane gas generating plant in the basement. Recent technological advancements in generators have allowed the massive amounts of pruned plant organic waste or biomass from the vertical farm to be recycled to produce methane. This methane gas is burned to create electric energy which is used throughout the Vertical Farm, offices and apartments. Ecologically generating energy from biomass closes the carbon cycle which means the structure does not contribute to the greenhouse gases in the atmosphere.</p>
+<p class="interview FLW">The organic ‘bean’ shaped form of the building optimise ideal day lighting and views. The South facing offices have sweeping views over the city skyline and the curved apartment tower allows for views over the harbour. The double curved ETFE Vertical farm façade to the North relates to the winter sun path. Virtual and Augmented sun studies during design ensured that a consistent transmission of natural day lighting was uniformly distributed to the shallow farm floor plates. Low energy LED ‘grow lights’ ensure the crops continue to develop 24/7. The 50 meter long, prefabricated strips of ETFE are the skin of the building and are a much more sustainable alternate to glass and absorb less UV light which is essential for photosynthesis and plant growth. On several floors communal sky-courts recreate the ground level environment in the sky and allow for outdoor landscaped retreat spaces with café and BBQ facilities for the office staff and apartment occupants.</p>
+<blockquote class="pull"><p>‘Architecture is born from an idea.’</p></blockquote>
+<p class="interview FLW">To finish, I’ll say, Greendale is a great example of how contemporary technologies can be successfully utilised to design and construct a purposeful, inherently performative, beautiful building that responds to climate change and the needs of society in 2030.</p>
+<hr>
+<h2>BIBLIOGRAPHY</h2>
+<h3>BOOKS</h3>
+<ul>
+<li><span class="title">Growing better Cities – Urban Agriculture for sustainable development</span><br>
+<span class="author">Mougeot, Luc J.A</span><br>
+<span class="publisher">IDRC Books; Pap/Cdr edition</span><br>
+<span class="date">July 2006</span></li>
+<li><span class="title">The Vertical Farm – Feeding the world in the 21st Century.</span><br>
+<span class="author">Dr Dickson Despommier</span><br>
+<span class="publisher">Picdor</span>, <span class="date">November 2011</span></li>
+</ul>
+<h3>JOURNAL ARTICLES</h3>
+<ul>
+<li><span class="title">An Urban Agriculture: The New Frontier</span><br>
+<span class="author">Ian Knowd, David Mason, Andrew Docking</span><br>
+<span class="publication">Changing City Structures<br>
+<span class="date">2003</span> </span></li>
+<li><span class="title">Architecture in an Age of Augmented Reality: Opportunities and Obstacles for Mobile AR in Design, Construction and Post-Completion.</span><br>
+<span class="author">Rana Abboud</span><br>
+<span class="date">March 2014</span></li>
+<li><span class="title">Beyond the binary: An Interview with Phillip Cox and Tristram Carfrae with Anthony Burke </span><br>
+<span class="publication">AR, Form &amp; Structure, Issue 109, </span><br>
+<span class="date">2009</span></li>
+<li><span class="title">Fast Architecture </span><br>
+<span class="author">Stuart Harrison</span><br>
+<span class="publication">AR, Form &amp; Structure, Issue 109</span><br>
+<span class="date">2009</span></li>
+<li><span class="title">Future Practice</span><br>
+<span class="author">Rory Hyde</span><br>
+<span class="publication">AR, Future Cities, Issue 116,</span><br>
+<span class="date">2010</span></li>
+<li><span class="title">Membrane Construction</span><br>
+<span class="publication">Detail Magazine</span><br>
+<span class="date">September 2000</span></li>
+<li><span class="title">The Evolution of the Office</span><br>
+<span class="publication">Evolution 2013 – Green Building Council of Australia,</span><br>
+<span class="date">2013</span></li>
+<li><span class="title">The Office of the Futuure: A Unified Approach to Image-Based Modeling and Spatially Immersive Displays</span><br>
+<span class="author">Ramesh Raskar, Greg Welch, Matt Cutts, Adam Lake, Lev Stesin and Hendy Fuchs<br>
+<span class="date">1998</span> </span></li>
+<li><span class="title">The Vertical Farm Essay: Reducing the Impact of agriculture on ecosystem functions and services</span><br>
+<span class="author">Dr. Dickson Despommier, Department of Environmental Health Sciences, New York</span><br>
+<span class="date">2004</span></li>
+<li><span class="title">Topological Revolution</span><br>
+<span class="author">Peter Felicetti</span><br>
+<span class="publication">AR, Form &amp; Structure, Issue 109,</span><br>
+<span class="date">2009</span></li>
+<li><span class="title">Urban Agriculture: Food, Jobs and Sustainable Cities.</span><br>
+<span class="author">United Nations Development Programme (UNDP) </span><br>
+<span class="publication">Publication Series for Habitat 2, Volume One, UNDP,</span><br>
+<span class="date">1996</span></li>
+</ul>
+<h3>WEBSITES</h3>
+<ul class="url-refs">
+<li><a href="http://verticalfarm.com/">verticalfarm.com</a></li>
+<li><a href="http://tropos.bvn.com.au/2015/03/11/interview-with-an-architect/www.urbanag.info">urbanag.info</a></li>
+<li><a href="http://www.dpi.nsw.gov.au/">dpi.nsw.gov.au</a></li>
+<li><a href="http://www.agric.wa.gov.au/">agric.wa.gov.au</a></li>
+<li><a href="http://tropos.bvn.com.au/2015/03/11/interview-with-an-architect/www.ASPO-Australia.org.au">ASPO-Australia.org.au</a></li>
+<li><a href="http://www.idrc.ca/in_focus_cities/">idrc.ca/in_focus_cities</a></li>
+<li><a href="http://www.sustained.com.au/">sustained.com.au</a></li>
+<li><a href="http://www.archdaily.com/585599/defining-a-more-purposeful-architecture-a-guide-to-current-architectural-trends/">archdaily.com/585599/defining-a-more-purposeful-architecture-a-guide-to-current-architectural-trends</a></li>
+<li><a href="http://www.dezeen.com/2014/10/15/keiichi-matsuda-architecture-augmented-reality-architects-become-game-designers-filmmakers/">dezeen.com/2014/10/15/keiichi-matsuda-architecture-augmented-reality-architects-become-game-designers-filmmakers</a></li>
+<li><a href="http://www.dezeen.com/2014/02/05/movie-andy-millns-inition-augmented-reality-devices-in-your-eye/">dezeen.com/2014/02/05/movie-andy-millns-inition-augmented-reality-devices-in-your-eye</a></li>
+<li><a href="http://www.dezeen.com/2013/05/21/3d-printing-architecture-print-shift/">dezeen.com/2013/05/21/3d-printing-architecture-print-shift</a></li>
+<li><a href="http://www.dezeen.com/2014/12/17/movie-3d-printed-building-components-new-building-shapes-salome-galjaard-arup-video-interview/">dezeen.com/2014/12/17/movie-3d-printed-building-components-new-building-shapes-salome-galjaard-arup-video-interview</a></li>
+<li><a href="http://www.completesteeldetailing.com.au/#!3D-Printing-The-Future-of Construction/c1prb/17A39576-E148-4BF4-918A-1094397E00A0">completesteeldetailing.com.au/3D-Printing-The-Future-of Construction</a></li>
+<li><a href="http://blogs.bvn.com.au/go/">blogs.bvn.com.au</a></li>
+<li><a href="http://architectureau.com/articles/the-next-future/">architectureau.com/…/the-next-future</a></li>
+</ul>
+<h3>COVER PHOTO</h3>
+<p><a href="http://www.innervisioneyewear.com/buy-eyeglasses-GEEKEyewear-706.php">innervisioneyewear.com</a></p>
+
+
+<ol>
+	<li><span class="commenter">Ben Doherty</span>
+<p>I really enjoyed this.</p>
+<p>The reference to ‘parametricism’ got me thinking. Most of ‘us nerds in the trade’ got really annoyed by Schumaker’s pontification. His coining of the term, and defining it as a style not an approach undid a lot of the work we’d put in. (By ‘we’ I’m being arrogant and including Coates, Hillier, Steadman etc.)</p>
+<p>By 2030 the ‘style’ might have matured to just mean a form that appears to have been achieved through <em>a process that is inscrutable to a human</em> in some way. I like that you’ve brought it back to pure structure–Gaudi would be pleased.</p>
+<p>I disagree with the idea that AI software is doomed to always be “just a tool”. It’s similar to the <a href="http://plato.stanford.edu/entries/chinese-room/" rel="nofollow">Chinese room argument</a> and I don’t think it matters if the computer can think as long as it gives us a response that makes us think that it can think! I’d imagine that a lot of people disagree with me and I’d be interested to hear how. I think that computers will become indistinguishable from humans on certain classes of task sooner than we think. (Class specific AI is far easier than fully general AI.)</p>
+<p>I thought that it was interesting that you also said “that a building should be about the human interface”. I get a lot of human interface discussion at home and it feels as if we are lagging behind professions where interface design is an explicit part of the brief. The testing structure mentioned in <a href="http://blogs.bvn.com.au/tropos/2015/02/15/31130-645pm-dear-diary/" rel="nofollow">Dear Diary,</a> sounds like it’d work well at Williams &amp; Associates.</p>
+<p>I’ve always had a bit of a thing for urban agriculture. I wonder what would happen if you tried to make a building as self sustaining as possible.</p>
+</li>
+
+<li><span class="commenter">David McGirr</span>
+<p>I thought this was a really novel response to the brief. Reading it really felt like a real interview (even if you didn’t agree with all of the content).<br>
+I wondered if there was some meaning in the names of the participants – Toohey was a character from Fountainhead (saying Ayn Arand ‘isnt my favourite Author” would be an understatement I think, it certainly provokes a response ast least) and no prizes for guessing what FLW stands for in the modernist canon. Probably just coincidence</p>
+</li>
+
+<li><span class="commenter">Katherine Withnell</span>
+<p>I loved this! I particularly (and predictably) liked where FLW commented on how if architects want to win the next big commission they need to keep up with the times. We need more focus more on research, emerging trends and technologies in our submissions. (so if the writer of this essay wants to help me with that, I’d really appreciate it!)
+</p>
+</li>
+
+<li><span class="commenter">Michael Hogg</span>
+<p>“I wonder what would happen if you tried to make a building as self sustaining as possible” BD</p>
+<p>I think that would be great Ben, but I would imagine we’d likely be kicked out of the meeting and told we are making the building too expensive!</p>
+<p>There is a tendency in these discussions for architects to assume that we have much of a say in what actually gets built…we already have loads of great ideas for how to make buildings ‘better’…but it is the financiers, the developers and their views of ‘the market’ that tend to dictate the brief…each with their own risk management structures to ensure the project is within a standard deviation of their competitors.</p>
+<p>There hasn’t been much about how architects might be able to have more of an influence in the work that occurs before architects even get involved in a project. I wonder how we can improve the expectations and broaden the possibilities for projects without relying on the occasional state politician to advance the issue.</p>
+<p>“Architecture is born from an idea”, but unfortunately, its rarely the idea of an architect. Given our current role of basically making the building look nice and work well inside the parameters set by higher powers [not an insignificant role it must be said], there is a danger that we retreat into the position of specialist form makers, while the big decisions are made by others.</p>
+</li>
+
+<li><span class="commenter">Joe Banks</span>
+<p>Thanks Michael, that’s a great point, I was talking to a student the other day bout how the role of the architect is betrayed as having this design freedom that lets you design and develop building only limited by your imagination and physics. however in reality most buildings are driven by cost and fairly limiting client/developer brief.</p>
+<p>I don’t know any architects that have managed to build exactly what they wanted to for a client, the only real outlet for most of us is when you are designing your own home and you still have pretty high financial pressures on an architects salary.</p>
+<p>Is the trick here to demonstrate the financial benefit of good design? do explain our design through the eyes of an economist?</p>
+</li>
+
+<li><span class="commenter">Ben Doherty</span>
+<p>This demonstration of value is talked about in <a href="http://blogs.bvn.com.au/tropos/2015/03/06/31130-645pm-dear-diary/" title="31/1/30 6:45pm - Dear Diary," rel="nofollow">Dear diary</a>, It needn’t be explicitly financial value, but often things tie back to money. We really need to start to <em>demonstrate</em> some kind of value rather than talk about ‘enlightened clients’ who just ‘get it’. It’s our job to make them get it!</p>
+</li>
+					
+<li><span class="commenter">Joseph O'Meara</span>
+<p>Hey guys, Interesting comments, thanks! </p>
+<p>In this piece ‘Greendale’ isn’t so much ‘the idea of the architect to make a building as self-sustaining as possible’ but rather a necessary development responding to the state of the hypothetical environment in 15 years. It’s a response to climate change, droughts, scarce resources, the food crises, urbanisation and above all the increasing population. I don’t think this is too far-fetched given that in the last 45 years the world’s population has literally doubled and it’s growing by over 200,000 daily! </p>
+<p>I was surprised the environment and ESD wasn’t really a pop topic in these essays. I think ESD will be more intrinsic in all development in 15 years, not by choice but by necessity. While ESD is definitely more ingrained in architecture today than it was 15 years ago, buildings are still the single largest contributor to the world’s greenhouse gas emissions, which is clearly a problem. </p>
+<p>I agree with the comment above that “most buildings are driven by cost”. I think this is the main reason why currently no freestanding high-rise vertical farms exist today because potential funders and stakeholders remain unconvinced that such a radical departure from conventional agriculture and urban development will be financially feasible. However if I were to look at ‘Greendale’ “through the eyes of an economist” I would suggest that eco-nomies like any eco-system are stronger when there is a diverse range of economic relationships and combining the profits of the office block, apartment tower and retail space, with the profit from the Vertical Farm secures the profitability of the entire mixed-use structure. The whole becomes greater than the sum of the parts. I think government subsidies, carbon trading, energy savings through reduced operating costs, energy generation and the political, social and environmental benefits would be attractive to a variety of developers. </p>
+<p>Food for thought. <img src="./INTERVIEW WITH AN ARCHITECT _ Tropos_files/icon_wink.gif" alt=";)" class="wp-smiley"></p>
+</li>
+
+<li><span class="commenter">Jared Bird</span>
+<p>The Shopfront/Science Museum practice model would be a good way to help people get it...</p>				
+</li>
+<li><span class="commenter">Joseph O'Meara</span>
+<p>Hey Ben, thanks for the comments! Now that our identities have been revealed I can safely reply to these without letting the cat out of the bag. <img src="./INTERVIEW WITH AN ARCHITECT _ Tropos_files/icon_smile.gif" alt=":)" class="wp-smiley"></p>
+<p>I don’t think Francis was suggesting “AI software is doomed to always be just a tool” but rather using virtual and augmented reality to design buildings still requires a designer to operate them. I think VR and AR have endless possibilities in architecture in the future which I talked about in the piece, however I think that even with advanced technological advancements there will still be a need for architects because software doesn’t acknowledge the creative process which is a very human response.<br>
+This is the opposite take on the more dystopian views some have suggested in their pieces whereby AI has spawned the end of the architect.</p>
+</li>
+
+<li><span class="commenter">Joseph O'Meara</span>
+<p>Hey David, well spotted! FLW was referring to Frank Lloyd Wright and EMT was referring to Ellsworth Monkton Toohey. This was for no real reason other than Wright is arguably the most famous architect and Toohey is a famous fictional architectural critic, interviewer and writer.<br>
+No greater meaning behind it. <img src="./INTERVIEW WITH AN ARCHITECT _ Tropos_files/icon_smile.gif" alt=":)" class="wp-smiley"></p>
+</li>
+
+<li><span class="commenter">Joseph O'Meara</span>
+<p>Thanks Katherine! I’d love to have a chat and help out however I can. <img src="./INTERVIEW WITH AN ARCHITECT _ Tropos_files/icon_smile.gif" alt=":)" class="wp-smiley">
+</p>
+</li>
