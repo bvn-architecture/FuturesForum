@@ -3,7 +3,7 @@ title: Futures Forum
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Futures Forum
-baseurl: "/fakeApp/" # the subpath of your site, e.g. /blog/
+baseurl: "/FuturesForum/" # the subpath of your site, e.g. /blog/
 url: "http://bvn-architecture.github.io" # the base hostname & protocol for your site
 
 host: localhost
