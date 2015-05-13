@@ -28,7 +28,7 @@ Tap to expand cards
 
 Tweet automagically
 
-Save it to your homescreen
+### Save it to your homescreen ###
 
 <div id="ios-homescreen-explainer" style="display:none;">
 {% picture explainer iosExplainer-01.png alt="Go the bottom of the screen and press the square with an up arrow" %}
