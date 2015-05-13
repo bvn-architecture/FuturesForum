@@ -5,6 +5,16 @@ $(document).ready(function() {
   console.log("here we go");
   console.log(navigator);
 
+  if(/(iPhone|iPad|iPod)/g.test(    navigator.userAgent)){
+    //testing to see if we are on iOS
+    console.log("I'm an iOS");
+    document.getElementById("ios-homescreen-explainer").style["display"] = "block";
+  }
+  if(/(Android*)/g.test( navigator.userAgent)){
+    //testing to see if we are on Android
+    console.log("I'm an android");
+    document.getElementById("android-homescreen-explainer").style["display"] = "block";
+  }
 
     var selectedCardManager = new function() {
       var selectedCard = null;

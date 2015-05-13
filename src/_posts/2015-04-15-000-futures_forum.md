@@ -16,20 +16,52 @@ gradient       : one
 
 {% include futures_forum_logo_bw.svg %}
 
-These links open twitter on android, we need to do a bit more to make them do the same on iOS.
+Welcome to the Futures Forum!
 
-On opening, the page will scroll by time to the part of the day that we are currently on
+This two day event is the beginning of a new way of working at BVN. We are about ideas and about shaping the future.
 
-When you tap a card it expands to give you the details of that person
+This event is the culmination of all the warmup events and activities that have happened over the last 6 months. You can see the results of all of them by pressing **menu** and going to the event in question.
 
-when you swipe it it flips over to display the social feed for the event underneath it.
+## How to use this web app ##
 
+Tap to expand cards
 
+Tweet automagically
 
-Simon is a nice guy, he's very clever
+Save it to your homescreen
 
-Slow-carb hashtag High Life, organic brunch dreamcatcher PBR&B beard. Trust fund cornhole umami, four dollar toast Kickstarter vegan direct trade. Literally ennui locavore, Vice yr cardigan tattooed disrupt Thundercats lomo cronut. Mixtape locavore 90's dreamcatcher master cleanse selfies. Before they sold out chambray four dollar toast, fap master cleanse photo booth letterpress. Deep v sartorial Helvetica, Shoreditch irony artisan polaroid. Meditation hella meh, Helvetica Kickstarter pop-up small batch lomo Godard Schlitz biodiesel.
+<div id="ios-homescreen-explainer" style="display:none;">
+{% picture explainer iosExplainer-01.png alt="Go the bottom of the screen and press the square with an up arrow" %}
+{% picture explainer iosExplainer-02.png alt="Tap add to homescreen" %}
+{% picture explainer iosExplainer-03.png alt="Tap add" %}
+{% picture explainer iosExplainer-04.png alt="There you go!" %}
+<ol>
+<li>Go the bottom of the screen and press the square with an up arrow</li>
+<li>Tap add to homescreen</li>
+<li>Tap add</li>
+<li>There you go!</li>
+</ol>
+</div>
+<div id="android-homescreen-explainer" style="display:none;">
+{% picture explainer androidExplainer-05.png alt="Go the top of the screen open the menu, then tap 'add to homescreen'" %}
+{% picture explainer androidExplainer-06.png alt="Tap add" %}
+{% picture explainer androidExplainer-07.png alt="There you go!" %}
+<ol>
+<li>Go the top of the screen open the menu</li>
+<li>Tap add to homescreen</li>
+<li>Tap add</li>
+<li>There you go!</li>
+</ol>
+</div>
 
-Messenger bag freegan lumbersexual, forage gastropub semiotics trust fund organic meditation twee leggings Etsy. Post-ironic forage wayfarers, hashtag cardigan keffiyeh listicle Odd Future selfies photo booth polaroid. Williamsburg migas Pinterest hashtag. Keffiyeh brunch pickled XOXO flannel hashtag. Freegan cliche narwhal meditation actually artisan. Pug viral +1 forage chillwave Echo Park. Ennui brunch Neutra seitan.
+## What to pack? ##
 
-Messenger bag freegan hashtag lumbersexual, forage gastropub semiotics trust fund organic meditation twee leggings Etsy. Post-ironic forage wayfarers, hashtag cardigan keffiyeh listicle Odd Future selfies photo booth polaroid. Williamsburg migas Pinterest hashtag. Keffiyeh brunch pickled XOXO flannel hashtag. Freegan cliche narwhal meditation actually artisan. Pug viral +1 forage chillwave Echo Park. Ennui brunch Neutra seitan.
+* swimmers for dolphin feeding
+* tuxedo for pecha kucha
+* toothbrush
+
+## What *not* to pack? ##
+
+* laptop
+* pets
+* towels

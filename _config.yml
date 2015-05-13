@@ -41,20 +41,37 @@ picture:
       source_default:
         width: 350
         height: 200
-    # Half width pictures
-    half:
+    # # Half width pictures
+    # half:
+    #   ppi: [1, 1.5]
+    #   attr:
+    #     data-location: "{{location}}"
+    #     data-active: nil
+    #   source_lrg:
+    #     media: "(min-width: 40em)"
+    #     width: 400
+    #   source_med:
+    #     media: "(min-width: 30em)"
+    #     width: 250
+    #   source_default:
+    #     width: 350
+    # explainer pictures
+    explainer:
       ppi: [1, 1.5]
       attr:
-        data-location: "{{location}}"
-        data-active: nil
+        class: explainer
+        itemprop: image
       source_lrg:
-        media: "(min-width: 40em)"
-        width: 400
+        media: "(min-width: 500px)"
+        width:  562
+        height: 1000
       source_med:
-        media: "(min-width: 30em)"
-        width: 250
+        media: "(min-width: 200px)"
+        width:  250
+        height: 444
       source_default:
-        width: 350
+        width:   75
+        height: 133
 
 
 #

@@ -19,6 +19,16 @@
     img, svg {
         width: 100%;
     }
+    #ios-homescreen-explainer{
+      .explainer {
+        width: 49%;
+      }
+    }
+    #android-homescreen-explainer{
+      .explainer {
+        width: 32%;
+      }
+    }
     .start-time {
         position: absolute;
         color: white;
