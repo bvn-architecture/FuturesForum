@@ -114,12 +114,12 @@ $(document).ready(function() {
     $('.menu-button').on('click tap', function(e) {
         e.preventDefault();
         moveMarker();
-        if(!window.weHaveHadOneScroll){
-            window.weHaveHadOneScroll = true;
-            $(".stack-layer").removeClass("out");
-            console.log("removed out");
+        // if(!window.weHaveHadOneScroll){
+        //     window.weHaveHadOneScroll = true;
+        //     $(".stack-layer").removeClass("out");
+        //     console.log("removed out");
 
-        }
+        // }
         $("nav").toggleClass("in");
     });
 

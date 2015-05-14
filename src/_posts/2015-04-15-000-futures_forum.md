@@ -24,9 +24,15 @@ This event is the culmination of all the warmup events and activities that have 
 
 ## How to use this web app ##
 
-Tap to expand cards
+This has all the info on what's going on. Here's how to get the most out of it.
 
-Tweet automagically
+### Tap to expand cards ###
+
+Each session and thing that happens has a card. You can tap to expand it and see all the details about that thing!
+
+### Tweet automagically ###
+
+Please tweet a lot about the Futures Forum! Each event has a button that will preload a tweet for you with the right #hashtags and @mentions. Send questions for speakers via twitter so that we can get the Q&A sessions moving as fast as possible.
 
 ### Save it to your homescreen ###
 
