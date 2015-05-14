@@ -149,7 +149,6 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    wdm (0.1.0)
     yajl-ruby (1.2.1)
 
 PLATFORMS
@@ -163,4 +162,3 @@ DEPENDENCIES
   mini_magick
   sass
   uglifier
-  wdm (>= 0.1.0)
