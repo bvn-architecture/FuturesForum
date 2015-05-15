@@ -34,3 +34,5 @@ The coach will be located at...
 It will depart for Tangaloomas' Holt Street Wharf at 9am
 
 Parking is available at Holt Street Wharf. It is not undercover. Map of wharf location is below.
+
+<div class="the-map">{% include bne-airport.svg %}</div>
