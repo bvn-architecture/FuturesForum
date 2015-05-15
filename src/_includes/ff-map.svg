@@ -7,11 +7,11 @@
     <path fill="#009E00" d="M398.8 0c-13.8 124.8-53 246-67.3 371-5.5 47-7.4 94.3-16.5 140.8-7.6 39-20.2 77-32.8 114.7L142.4 1047H665V0H398.7z"/>
   </g>
   <g id="markers">
-    <use xlink:href="#marker" width="75" height="86.6" id="flensing-deck_1_" x="-37.5" y="-43.3" transform="matrix(1 0 0 -1 444.232 110.105)" overflow="visible"/>
+    <use xlink:href="#marker" width="75" height="86.6" id="flensing-deck" x="-37.5" y="-43.3" transform="matrix(1 0 0 -1 444.232 110.105)" overflow="visible"/>
     <use xlink:href="#marker" width="75" height="86.6" id="jetty" x="-37.5" y="-43.3" transform="matrix(-.226 .974 .974 .226 52.517 796.157)" overflow="visible"/>
-    <use xlink:href="#marker" width="75" height="86.6" id="food_1_" x="-37.5" y="-43.3" transform="matrix(.948 .317 .317 -.948 327.253 544.157)" overflow="visible"/>
+    <use xlink:href="#marker" width="75" height="86.6" id="food" x="-37.5" y="-43.3" transform="matrix(.948 .317 .317 -.948 327.253 544.157)" overflow="visible"/>
     <use xlink:href="#marker" width="75" height="86.6" id="marquee" x="-37.5" y="-43.3" transform="matrix(.948 .317 .317 -.948 287.253 585.157)" overflow="visible"/>
-    <use xlink:href="#marker" width="75" height="86.6" id="dolphins_1_" x="-37.5" y="-43.3" transform="matrix(.948 .317 .317 -.948 287.253 585.157)" overflow="visible"/>
+    <use xlink:href="#marker" width="75" height="86.6" id="dolphins" x="-37.5" y="-43.3" transform="matrix(.948 .317 .317 -.948 287.253 585.157)" overflow="visible"/>
   </g>
   <g id="buildings" fill="#FFF" stroke="#1D1D1B" stroke-miterlimit="10">
     <path d="M496.8 535.6c1.2.8 2.4 1.6 3.2 2.8 1.3 2.2.8 5 .2 7.5l-23 99c-4.3 18.7-11.6 40.7-30.2 45.5-24.3 6.4-45.8-22.2-70.8-20.8 15.6-55 48.8-106 52.2-163 24.2 5.6 47.5 15.4 68.4 29zM325.7 625.2c11.2-1.2 24.2-1.7 32 6.5 6-19.6 9.8-40 11-60.4l-35-4.4c1 19.6-1.8 39.4-8 58.2zM591.4 133.7c2.4-12.5 3.7-25.2 3.7-38-15.3 2-30.8 0-46-2-18.4-2.5-36.7-5.4-55-8.7-1.4 12.5-2.7 25-3.8 37.7 30 2.7 59.4 9.5 87.5 20 2.4.8 5 1.7 7.4 1 4-1.2 5.6-6 6.4-10zM250 954.8c-16.4-7.7-34.3-10.8-51.8-15C139.8 925.3 86 897 33 868.7c-8.4-4.4-17.8-10.5-18-20 0-8.5 8.2-15 10-23.6 28.8 33 75.5 42.4 117.6 55 39.2 11.6 77 27.6 114.3 44.5 8.5 4 17.3 8 23.6 15 6.3 7 9.6 17.6 5.4 26-12.5 2.6-24.5-5.4-36-11z"/>
