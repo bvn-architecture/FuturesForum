@@ -1,6 +1,6 @@
 ---
 layout         : post
-title          : "transfer to Moreton Island"
+title          : "Transfer to Moreton Island"
 
 hashtags       : ["FuturesForum"]
 mentions       : ["architectureBVN"]

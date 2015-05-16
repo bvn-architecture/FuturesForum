@@ -4,7 +4,7 @@ title          : "Futures Forum"
 
 hashtags       : ["FuturesForum", "OnTheWay"]
 mentions       :
-tweet-text     : I'm on my way to Tangalooma!
+tweet-text     : I'm on my way to Tangalooma! https://www.youtube.com/watch?v=wuk8AOjGURE
 twitter-widget-id: 347154675793022976
 
 date           : 2015-05-28 00:00:00 +10:00 +10:00
