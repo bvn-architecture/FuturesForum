@@ -34,7 +34,7 @@
   <meta name="description" content="Simon is a nice guy, he’s very clever">
 
     <style>/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}</style>
-           <link rel="stylesheet" href="/FuturesForum/assets/main-328989a9c56e0cf5539e13eafd37e86b.css">
+           <link rel="stylesheet" href="/FuturesForum/assets/main-2975b4501733f7eaceda3d7ac514428d.css">
   
 
   <link rel="canonical" href="http://bvn-architecture.github.io/FuturesForum//27-transfer-to-airportCBD.html">
@@ -43,8 +43,8 @@
 
 
   <body>
-	  <div class="fake-body">
-	    <div class="menu-button">
+	  
+    <div class="menu-button">
       <a href="#">menu</a>
 </div>
 
@@ -59,7 +59,7 @@
         </ul>
     </div>
 </nav>
-	    <div class="eight-an-a-half card" style="height: 40.0em;">
+    <div class="eight-an-a-half card" style="height: 40.0em;">
   <span class="start-time">17:30</span>
   <div class="front">
     <h1>transfer to airport/CBD</h1>
@@ -102,7 +102,7 @@
   </div>
   <div class="back"><h1>OMG!</h1></div>
 </div>
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 <script>
 $(document).ready(function() {
@@ -190,6 +190,8 @@ $(document).ready(function() {
         $(".jump").css(        "display", "block");
         $(".time-marker").css( "display", "block");
         $(".twitter-feed").css("display",  "none");
+
+        $(".front").scrollTop(0);
       };
       this.setCurrentCard = function(newCard) {
         selectedCard = newCard;
@@ -289,7 +291,7 @@ $(document).ready(function() {
 
         $(this).toggleClass("live-one");
         $('html, body').animate({ scrollTop: $(this).offset().top }, 300);
-        $(".fake-body"        ).toggleClass("noscroll");
+        $("body").toggleClass("noscroll");
     });
 
     $('.jump').on('click tap', function(e) {
@@ -342,7 +344,7 @@ $(document).ready(function() {
 </script>
 
 <script src="http://platform.twitter.com/widgets.js"></script>
-	  </div>
+	  
   </body>
 
 </html>
