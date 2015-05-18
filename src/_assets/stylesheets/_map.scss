@@ -35,3 +35,16 @@ use {
 #transfer-to-airport-cbd                  #flensing-deck  {display:  initial;}
 #departures-to-canberra-sydney-melbourne  #flensing-deck  {display:  initial;}
 #sleep                                    #flensing-deck  {display:  initial;}
+
+
+//make the boat whizz across the harbour
+path#boat-trip {
+  -webkit-animation: sail 5s infinite ease-in-out;
+          animation: sail 5s infinite ease-in-out;
+}
+
+@-webkit-keyframes sail {
+    0% {stroke-dashoffset:   0;}
+   50% {stroke-dashoffset: 650;} 
+  100% {stroke-dashoffset:   0;}
+}
