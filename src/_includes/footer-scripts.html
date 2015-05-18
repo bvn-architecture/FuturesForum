@@ -86,6 +86,8 @@ $(document).ready(function() {
         $(".jump").css(        "display", "block");
         $(".time-marker").css( "display", "block");
         $(".twitter-feed").css("display",  "none");
+
+        $(".front").scrollTop(0);
       };
       this.setCurrentCard = function(newCard) {
         selectedCard = newCard;
@@ -185,7 +187,7 @@ $(document).ready(function() {
 
         $(this).toggleClass("live-one");
         $('html, body').animate({ scrollTop: $(this).offset().top }, 300);
-        $(".fake-body"        ).toggleClass("noscroll");
+        $("body").toggleClass("noscroll");
     });
 
     $('.jump').on('click tap', function(e) {
