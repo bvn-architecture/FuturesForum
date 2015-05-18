@@ -12,7 +12,8 @@
         overflow: hidden;
         transition: height $transition-time;
         //backface-visibility: hidden;
-        transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+                transform-style: preserve-3d;
         max-width: 450px;
         margin: auto;
     }
@@ -53,10 +54,12 @@
       a{
           margin: 1.5em 0;
           color: rgba(40,106,171,1);
+          transition: -webkit-transform 0.1s;
           transition: transform 0.1s;
           display: none;
           &:active {
-            transform: scale(6);
+            -webkit-transform: scale(6);
+                    transform: scale(6);
           }
         svg {
           fill:  rgba(40,106,171,1);

@@ -74,7 +74,8 @@ nav {
     a:active  { color: red;}
     .menu-icon {
         display: inline-block;
-        transform: translateY(0.2em);
+        -webkit-transform: translateY(0.2em);
+                transform: translateY(0.2em);
         span {
           display: block;
           width: 1.5em;
