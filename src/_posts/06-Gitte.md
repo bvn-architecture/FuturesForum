@@ -21,8 +21,7 @@ Gitte is a professor at [Carleton university](http://http-server.carleton.ca/~gl
 
 {% picture gitte.jpg alt="a picture of Gitte Lindgaard" title="" %}
 
-
-Gitte bio
+Gitte Lindgaard, PhD, RN, is a Distinguished Research Professor at Carleton University in Ottawa, Canada, and a Professor of Neuroaffective Design at Swinburne University of Technology in Melbourne, Australia.  Until 2012, she was Director of the Human Oriented Technology Lab (HOTLab) holding the prestigious Canadian Natural Science & Engineering Research Council’s NSERC/Cognos Senior Industry Research Chair in User-Centred Product Design. Prior to that, she was Principal Scientist and Head of the Human Factors Division at Telstra Research Laboratories in Melbourne for 15 years. She was Chair of CHISIG of the Human Factors & Ergonomics Society of Australia (HFESA) (1986-1992; 1998-2000) where she founded the OZCHI conference in 1986. She is a Fellow of the HF&ESA, and has been editor/associate editor of several international Human-Computer Interaction (HCI) journals since 1988. Her research interests include aesthetics, cognition, and emotion in computing, and human decision making, especially in diagnostic medicine. She has published over 200 refereed papers, books, and book chapters. 
 
 <div class="the-map flensing-deck">{% include ff-map.svg %}</div>
 

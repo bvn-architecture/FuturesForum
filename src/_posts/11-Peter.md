@@ -16,17 +16,32 @@ length         :            01:00:00
 gradient       : eight
 
 ---
-{% picture peter.jpg alt="Simon longstaff's face" look." title="Simon, rocking the "legs crossed and serious" look." %}
 
-Simon is a nice guy, he's very clever
+Architectural writer, critic, consultant and curator, Peter Buchanan was born in Malawi, schooled in Zimbabwe and graduated B.Arch from the University of Cape Town in 1968. He worked as architect and urban designer/planner in parts of Africa, Europe and the Middle East before joining The Architectural Review in 1979, becoming Deputy Editor in 1982. Freelancing since 1992, he curated the travelling exhibitions Renzo Piano Building Workshop: Selected Projects and Ten Shades of Green for The Architectural League of New York and been a consultant on urban design projects and for architectural publications. He has published several hundred essays and articles in journals from many countries, and lectured and taught summer schools and master classes in a similarly wide range of places and universities. His many books include five volumes of Renzo Piano Building Workshop: Complete Works (Phaidon Press) and Ten Shades of Green (WW Norton). Most recently, he wrote The Big Rethink series in The Architectural Review, now being expanded into a book.
 
-Slow-carb hashtag High Life, organic brunch dreamcatcher PBR&B beard. Trust fund cornhole umami, four dollar toast Kickstarter vegan direct trade. Literally ennui locavore, Vice yr cardigan tattooed disrupt Thundercats lomo cronut. Mixtape locavore 90's dreamcatcher master cleanse selfies. Before they sold out chambray four dollar toast, fap master cleanse photo booth letterpress. Deep v sartorial Helvetica, Shoreditch irony artisan polaroid. Meditation hella meh, Helvetica Kickstarter pop-up small batch lomo Godard Schlitz biodiesel.
+{% picture peter.jpg alt="" title="" %}
 
-Messenger bag freegan lumbersexual, forage gastropub semiotics trust fund organic meditation twee leggings Etsy. Post-ironic forage wayfarers, hashtag cardigan keffiyeh listicle Odd Future selfies photo booth polaroid. Williamsburg migas Pinterest hashtag. Keffiyeh brunch pickled XOXO flannel hashtag. Freegan cliche narwhal meditation actually artisan. Pug viral +1 forage chillwave Echo Park. Ennui brunch Neutra seitan.
+*When you've had a career like Peter's it warants going into it in a bit more detail:*
 
-Messenger bag freegan hashtag lumbersexual, forage gastropub semiotics trust fund organic meditation twee leggings Etsy. Post-ironic forage wayfarers, hashtag cardigan keffiyeh listicle Odd Future selfies photo booth polaroid. Williamsburg migas Pinterest hashtag. Keffiyeh brunch pickled XOXO flannel hashtag. Freegan cliche narwhal meditation actually artisan. Pug viral +1 forage chillwave Echo Park. Ennui brunch Neutra seitan.
+Born in Malawi and schooled in Zimbabwe, Peter Buchanan studied architecture at the University of Cape Town, graduating B.Arch in 1968. He then worked with two leading Cape Town architects: Gabriel Fagan (1969-70) and Revel Fox and Partners (1970-71).
 
-Messenger bag freegan lumbersexual, forage gastropub semiotics trust fund organic meditation twee leggings Etsy. Post-ironic forage wayfarers, hashtag cardigan keffiyeh listicle Odd Future selfies photo booth polaroid. Williamsburg migas Pinterest hashtag. Keffiyeh brunch pickled XOXO flannel hashtag. Freegan cliche narwhal meditation actually artisan. Pug viral +1 forage chillwave Echo Park. Ennui brunch Neutra seitan.
+In 1972 he moved to London and worked until 1976 for Halpern + Partners on commercial and planning projects. From 1976 until 1979 he worked for Sidell Gibson Partnership master-planning the extension of the city of Arak in Iran.
+ 
+In 1979 he joined The Architectural Press as an editor and writer on the Architect’s Journal and The Architectural Review, becoming Deputy Editor of the latter in 1982.
+
+Since 1992 he has freelanced as a writer, exhibition curator and consultant in environmental design and planning. He curated two exhibitions for The Architectural League of New York: Renzo Piano Building Workshop: Selected Projects in 1992 (for which he also wrote the catalogue) and Ten Shades of Green in 2000, both of which travelled extensively over several years. In 2000-01 he was a consultant to the Greater London Authority’s Planning Decisions Unit and its Spatial Development Strategy.
+
+When an editor, he wrote copiously for The Architectural Review and Architect’s Journal, including entire special issues of the AR on the Netherlands, Spain and Northern Switzerland (and later the Kansai International Airport) and edited a commemorative issue on Le Corbusier. Many of his articles in AR and AJ were republished in other languages and he has written for journals in the Netherlands, Spain, France, Germany, Poland, Italy, USA, Canada, Japan and South Africa. He has been an editorial advisor to many journals, was on editorial boards of Architecture + Urbanism (Japan), Daidolos (Germany) and Harvard Design Magazine (USA) and now is on that of The Architectural Review.
+
+Besides writing the catalogues to the exhibitions for which he was curator, he has contributed essays to other catalogues, including on Aldo and Hannie van Eyck and Thomas Herzog, and to several monographs on contemporary architects. His books include the five volumes (each in six different language editions) of Renzo Piano Building Workshop: Complete Works (Phaidon Press) and Ten Shades of Green (W W Norton).
+
+He has featured on BBC radio programmes on James Stirling, Iannis Xenakis and Le Corbusier and television appearances have included programmes on Santiago Calatrava (BBC) and Kansai International Airport (Discovery Channel).
+
+He has been studio tutor, visiting critic and lecturer at various universities, master classes and summer schools and given public lectures in many countries, including the UK, Spain, the Netherlands, Denmark, Norway, Finland, France, Greece, Switzerland, Croatia, Poland, Portugal, Japan, USA, Canada, Brazil, Argentina, Peru, Mexico, Curacao, South Africa and Uzbekistan. 
+
+In 2003 he gave the Sofia Gray Memorial Lecture in Bloemfontein, South Africa. In 2008 he taught a two-week theory course to Masters students at Pamplona University and a day-long CPD course in all the main New Zealand cities. In 2010 he taught a one-week master class setting architecture in a 21st-century context to professors at ITESM in Monterrey, Mexico.
+
+In 2012-2013 he wrote a series of influential essays, The Big Rethink, for The Architectural Review. He is presently expanding these and adding more essays in a forthcoming book. 
 
 <div class="the-map flensing-deck">{% include ff-map.svg %}</div>
 

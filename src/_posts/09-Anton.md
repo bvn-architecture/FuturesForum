@@ -14,17 +14,14 @@ gradient       : six
 
 ---
 
-Anton runs the Office Envisioning team in Microsoft, creating next generation prototypes and videos that portray a vision of the future of productivity. What that means is... (what does that mean?)
-
+Anton runs the Office Envisioning team in Microsoft, creating next generation prototypes and videos that portray a vision of the future of productivity. He previously founded the Design Strategy team in Microsoft’s Entertainment Division, focused on next gen experiences for Xbox, Zune and Windows Phone. Before coming to Microsoft, Anton was a creative director in design research at Philips Design in the Netherlands.
 
 {% picture anton.jpg alt="A picture of Anton Andrews standing in front of a large display." title="" %}
 
+Whether facilitating hundreds of in-house engineers around a common vision, or working with executives to define it, Anton has maintained a focus on using experiential prototyping and design driven storytelling to bring human-centered experiences to organizational strategy.
 
-Messenger bag freegan lumbersexual, forage gastropub semiotics trust fund organic meditation twee leggings Etsy. Post-ironic forage wayfarers, hashtag cardigan keffiyeh listicle Odd Future selfies photo booth polaroid. Williamsburg migas Pinterest hashtag. Keffiyeh brunch pickled XOXO flannel hashtag. Freegan cliche narwhal meditation actually artisan. Pug viral +1 forage chillwave Echo Park. Ennui brunch Neutra seitan.
+Anton has a PhD in Biophysics from King’s College London and a degree in Product Design from Central Saint Martin’s School of Art and Design. 
 
-Messenger bag freegan hashtag lumbersexual, forage gastropub semiotics trust fund organic meditation twee leggings Etsy. Post-ironic forage wayfarers, hashtag cardigan keffiyeh listicle Odd Future selfies photo booth polaroid. Williamsburg migas Pinterest hashtag. Keffiyeh brunch pickled XOXO flannel hashtag. Freegan cliche narwhal meditation actually artisan. Pug viral +1 forage chillwave Echo Park. Ennui brunch Neutra seitan.
-
-Messenger bag freegan lumbersexual, forage gastropub semiotics trust fund organic meditation twee leggings Etsy. Post-ironic forage wayfarers, hashtag cardigan keffiyeh listicle Odd Future selfies photo booth polaroid. Williamsburg migas Pinterest hashtag. Keffiyeh brunch pickled XOXO flannel hashtag. Freegan cliche narwhal meditation actually artisan. Pug viral +1 forage chillwave Echo Park. Ennui brunch Neutra seitan.
 
 <div class="the-map flensing-deck">{% include ff-map.svg %}</div>
 
