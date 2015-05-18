@@ -5,6 +5,69 @@ $(document).ready(function() {
   console.log("here we go");
   console.log(navigator);
 
+  ///functions///
+  var weAreInTheMagicTimeWindow = function(){
+    var now = new Date(Date.now());
+    var timeStart = new Date(Date.parse("Tue May 28 2015 00:00:01 GMT+1000"));
+    var timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
+    if( (now > timeStart) && (now < timeEnd)){
+      console.log("OMG, The futures forum is ON!!!");
+      return true;
+    }else{
+      return false;
+    }
+  };
+
+  //move the marker according to the time.
+  var getRootElementFontSize = function() {
+    return parseFloat( getComputedStyle( document.documentElement ).fontSize ); //http://tzi.fr/js/snippet/convert-em-in-px
+  }
+  var timepx = function(offset){
+    return getRootElementFontSize()*(timeInEms()-offset);
+  };
+  var timeInEms = function(){
+    var now = new Date(Date.now());
+    //var now = new Date(Date.parse("Tue May 05 2015 19:30:00 GMT+1000"));
+    var time = now.getHours() + (now.getMinutes()/60) + (now.getSeconds()/3600); //time in decimal hours
+    var convertedTime = time * exchangeRate;
+    return convertedTime;
+  };
+  var moveMarker = function(){
+    convertedTime = timeInEms();
+    // console.log(convertedTime);
+    $(".time-marker").css( "top", convertedTime + "rem" );
+  }
+  var pointArrow = function(){
+    var jumpRectangle = document.getElementById("jump-button").getBoundingClientRect();
+    var yOffset       = window.pageYOffset;
+    var topOff        = jumpRectangle.top + (jumpRectangle.height/2);
+    var scrollOffset  = yOffset+topOff;
+    var d             = scrollOffset-timepx(0);
+    var adjacent      = window.innerWidth - (jumpRectangle.width/2);
+
+    var angle = -Math.atan(d/adjacent);
+
+    // console.log(
+    //             "yOffset",     Math.round(yOffset),
+    //             "topOff",      Math.round(topOff),
+    //             "scrollOffset",Math.round(scrollOffset),
+    //             "d",           Math.round(d),
+    //             "adjacent",    Math.round(adjacent),
+    //             "angle",       angle
+    //             );
+    document.getElementById("jump-button").style["transform"] = "rotate("+angle+"rad)";
+  };
+
+  $(".twitter-feed").css("display",  "none");
+  $(".jump").css(        "display",  "none");
+  $(".time-marker").css( "display",  "none");
+
+  if(weAreInTheMagicTimeWindow()){
+    $(".twitter-feed").css("display", "block");
+    $(".jump").css(        "display", "block");
+    $(".time-marker").css( "display", "block");
+  }
+
   if(/(iPhone|iPad|iPod)/g.test(    navigator.userAgent)){
     //testing to see if we are on iOS
     console.log("I'm an iOS");
@@ -21,6 +84,10 @@ $(document).ready(function() {
       this.removeCurrentCard = function() {
         $(selectedCard).children('.ff-twitter-widget').children().remove();
         selectedCard = null;
+
+        $(".jump").css(        "display", "block");
+        $(".time-marker").css( "display", "block");
+        $(".twitter-feed").css("display",  "none");
       };
       this.setCurrentCard = function(newCard) {
         selectedCard = newCard;
@@ -39,6 +106,10 @@ $(document).ready(function() {
         twitterWidgetParent.append(twitterWidget);
         twttr.widgets.load(twitterWidgetParent[0]);
         // console.log('appended to: ', twitterWidgetParent);
+
+        $(".jump").css(        "display", "none");
+        $(".time-marker").css( "display", "none");
+        $(".twitter-feed").css("display", "block");
       };
       this.manage = function(newCard) {
         console.log('Managing:', newCard);
@@ -52,6 +123,17 @@ $(document).ready(function() {
       }
     }();
 
+    var weAreInTheMagicTimeWindow = function(){
+      var now = new Date(Date.now());
+      var timeStart = new Date(Date.parse("Tue May 28 2015 00:00:01 GMT+1000"));
+      var timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
+      if( (now > timeStart) && (now < timeEnd)){
+        console.log("OMG, The futures forum is ON!!!");
+        return true;
+      }else{
+        return false;
+      }
+    };
 
     //move the marker according to the time.
     var getRootElementFontSize = function() {
@@ -94,7 +176,7 @@ $(document).ready(function() {
     };
 
 
-    var exchangeRate=20;//ems per hour
+    var exchangeRate= 20 ;//ems per hour
     moveMarker();
     pointArrow();
     window.setInterval(moveMarker, 30000);

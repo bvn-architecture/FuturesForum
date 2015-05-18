@@ -26,15 +26,7 @@ static/blender/blenderpro-book-webfont.woff
 #static/blender/blenderpro-medium-webfont.woff
 
 #icons
-static/app-icons/black-circle.png
-static/app-icons/logo-120.png
-static/app-icons/logo-128.png
-static/app-icons/logo-144.png
-static/app-icons/logo-152.png
-static/app-icons/logo-180.png
-static/app-icons/logo-192.png
-static/app-icons/logo-76.png
-static/app-icons/logo-96.png
+
 
 #external js (our js is embedded)
 https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js
