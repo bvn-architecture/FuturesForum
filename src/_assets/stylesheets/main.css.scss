@@ -110,18 +110,3 @@ p {
 }
 
 .noscroll{overflow: hidden;}
-
-
-
-svg#plane {
-  -webkit-transition: -webkit-transform 5s linear;
-          transition: transform 5s linear;
-  -webkit-transform-origin: 50% 500%;
-      -ms-transform-origin: 50% 500%;
-          transform-origin: 50% 500%;
-  -webkit-transform-style: preserve-3D;
-          transform-style: preserve-3D;
-  -webkit-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg); 
-}

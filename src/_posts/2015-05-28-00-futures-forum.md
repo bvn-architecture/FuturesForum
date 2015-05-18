@@ -34,7 +34,8 @@ Each session and thing that happens has a card. You can tap to expand it and see
 
 Please tweet a lot about the Futures Forum! Each event has a button that will preload a tweet for you with the right #hashtags and @mentions. Send questions for speakers via twitter so that we can get the Q&A sessions moving as fast as possible.
 
-### Save it to your homescreen ###
+<section id="explainer-section" style="display:none;">
+<h3> Save it to your homescreen ###</h3>
 
 <div id="ios-homescreen-explainer" style="display:none;">
 {% picture explainer iosExplainer-01.png alt="Go the bottom of the screen and press the square with an up arrow" %}
@@ -59,6 +60,7 @@ Please tweet a lot about the Futures Forum! Each event has a button that will pr
 <li>There you go!</li>
 </ol>
 </div>
+</section>
 
 ## What to pack? ##
 

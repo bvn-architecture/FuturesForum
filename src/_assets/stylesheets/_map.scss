@@ -48,3 +48,69 @@ path#boat-trip {
    50% {stroke-dashoffset: 650;} 
   100% {stroke-dashoffset:   0;}
 }
+
+
+//this bit makes the steam on the teacup move
+path.steam {
+  fill: gray;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: steam 4s infinite linear;
+          animation: steam 4s infinite linear;
+}
+
+@-webkit-keyframes steam {
+  0%  {-webkit-transform: rotateY(0deg);}
+  100% {-webkit-transform: rotateY(360deg);}  
+}
+
+svg#plane {
+  -webkit-transform-origin: 50% -500%;
+      -ms-transform-origin: 50% -500%;
+          transform-origin: 50% -500%;
+  -webkit-transform-style: preserve-3D;
+          transform-style: preserve-3D;
+  -webkit-animation: fly 10s infinite ease-in-out;
+          animation: fly 10s infinite ease-in-out; 
+}
+@-webkit-keyframes fly {
+    0% {-webkit-transform: rotate(360deg);}
+   50% {-webkit-transform: rotate(  0deg);} 
+  100% {-webkit-transform: rotate(  0deg);} 
+}
+
+#spark1,#spark2,#spark3{fill:none; stroke-width:0.5px;}
+#spark1{
+	-webkit-animation: spark 2s infinite linear;
+            animation: spark 2s infinite linear;
+}
+#spark2{
+	-webkit-animation: spark 1s infinite linear;
+            animation: spark 1s infinite linear;
+}
+#spark3{
+	-webkit-animation: spark 3s infinite linear;
+            animation: spark 3s infinite linear;
+}
+
+@-webkit-keyframes spark {
+    0% {-webkit-transform: translateX(5px) translateY(-0px);
+    	opacity: 1;}
+   50% {-webkit-transform: translateX(-20px) translateY(-50px);} 
+  100% {-webkit-transform: translateX(5px) translateY(-100px);
+    	opacity: 0;} 
+}
+
+
+.zeds{	
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+	-webkit-animation: snooze 10s infinite linear;
+            animation: snooze 10s infinite linear;
+}
+@-webkit-keyframes snooze {
+    0% {-webkit-transform: translateX( 0px) translateY( 0px) rotate(0deg);}
+   70% {-webkit-transform: translateX(-1px) translateY( 1px) rotate(5deg);} 
+  100% {-webkit-transform: translateX( 0px) translateY( 0px) rotate(0deg);} 
+}

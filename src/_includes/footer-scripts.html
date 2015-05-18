@@ -70,11 +70,15 @@ $(document).ready(function() {
     //testing to see if we are on iOS
     console.log("I'm an iOS");
     document.getElementById("ios-homescreen-explainer").style["display"] = "block";
-  }
-  if(/(Android*)/g.test( navigator.userAgent)){
+    document.getElementById("explainer-section").style["display"] = "block";
+  }else if(/(Android*)/g.test( navigator.userAgent)){
     //testing to see if we are on Android
     console.log("I'm an android");
     document.getElementById("android-homescreen-explainer").style["display"] = "block";
+    document.getElementById("explainer-section").style["display"] = "block";
+  }else{
+    //maybe on desktop or a windows phone.
+    console.log("I don't know where I am");
   }
 
     var selectedCardManager = new function() {

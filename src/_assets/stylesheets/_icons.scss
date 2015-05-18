@@ -19,18 +19,3 @@ svg.logo{
   background: -webkit-linear-gradient(top, #a0bab6 0%, #59c6f2 50%, #9ed9f7 100%);
   background:   linear-gradient(to bottom, #a0bab6 0%, #59c6f2 50%, #9ed9f7 100%);
 }
-
-
-//this bit makes the steam on the teacup move
-path.steam {
-  fill: gray;
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  -webkit-animation: spin 4s infinite linear;
-          animation: spin 4s infinite linear;
-}
-
-@-webkit-keyframes spin {
-  0%  {-webkit-transform: rotateY(0deg);}
-  100% {-webkit-transform: rotateY(360deg);}  
-}
