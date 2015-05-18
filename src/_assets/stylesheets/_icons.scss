@@ -24,8 +24,10 @@ svg.logo{
 //this bit makes the steam on the teacup move
 path.steam {
   fill: gray;
-  transform-origin: center;
+  -webkit-transform-origin: center;
+          transform-origin: center;
   -webkit-animation: spin 4s infinite linear;
+          animation: spin 4s infinite linear;
 }
 
 @-webkit-keyframes spin {
