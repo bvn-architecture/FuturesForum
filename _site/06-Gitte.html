@@ -176,9 +176,7 @@ $(document).ready(function() {
   };
 
   $(".twitter-feed").css("display",  "none");
-  $(".jump").css(        "display",  "none");
-  $(".time-marker").css( "display",  "none");
-
+  
   if(weAreInTheMagicTimeWindow()){
     $(".twitter-feed").css("display", "block");
     $(".jump").css(        "display", "block");
@@ -289,6 +287,7 @@ $(document).ready(function() {
       //             "adjacent",    Math.round(adjacent),
       //             "angle",       angle
       //             );
+      document.getElementById("jump-button").style["-webkit-transform"] = "rotate("+angle+"rad)";
       document.getElementById("jump-button").style["transform"] = "rotate("+angle+"rad)";
     };
 
