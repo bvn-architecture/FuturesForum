@@ -34,7 +34,7 @@
   <meta name="description" content="Gitte is a professor at Carleton university in Ontario, Canada and at Swinburne in Melbourne. Her work on Neuroaffective Design is about how computers affect...">
 
     <style>/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}</style>
-           <link rel="stylesheet" href="/FuturesForum/assets/main-11fe1b99c4f80f1b0bbd977d291bbbba.css">
+           <link rel="stylesheet" href="/FuturesForum/assets/main-0f9a4b7616c1f0884713f0891c27ff06.css">
   
 
   <link rel="canonical" href="http://bvn-architecture.github.io/FuturesForum//06-Gitte.html">
@@ -55,7 +55,10 @@
             <li><a href="/FuturesForum/icons/index.html">Icons</a></li>
             <li><a href="/FuturesForum/essays/">Essays</a></li>
             <li><a href="/FuturesForum/other-pages/bigquestions.html">Big Questions</a></li>
-            <li><a href="/FuturesForum/other-pages/map.html">Map</a></li>
+            <!-- <li><a href="/FuturesForum/other-pages/map.html">Map</a></li> -->
+
+            <li><a href="/FuturesForum/#">Speaker Bios</a></li>
+            <li><a href="/FuturesForum/#">Quick programme</a></li>
         </ul>
     </div>
 </nav>
@@ -118,131 +121,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 <script type="text/javascript">
-  $('.menu-button').on('click tap', function(e) {
+$(document).ready(function() {
+    $('.menu-button').on('click tap', function(e) {
         e.preventDefault();
         $("nav").toggleClass("in");
     });
-</script>
-
-<script src="http://platform.twitter.com/widgets.js"></script>
-	<script type="text/javascript">
-$(document).ready(function() {
-  console.log("here we go");
-  console.log(navigator);
-
-  ///functions///
-  var setInitialVisibility = function(){
-    $(".twitter-feed").css("display",  "none");
-    if(weAreInTheMagicTimeWindow()){
-      $(".jump").css(        "display", "block");
-      $(".time-marker").css( "display", "block");
-    }else{
-      $(".jump").css(        "display", "none");
-      $(".time-marker").css( "display", "none");
-    }
-  };
-  var setCardState = function(cardState){
-    if(cardState==="in"){
-      console.log("setting state in");
-      $(".twitter-feed").css( "display", "block");
-      $(".jump"        ).css( "display", "none");
-      $(".time-marker" ).css( "display", "none");
-    }else if(cardState==="out"){
-      console.log("setting state out");
-      $(".twitter-feed").css( "display", "none");
-      if(weAreInTheMagicTimeWindow()){
-        $(".jump"        ).css( "display", "block");
-        $(".time-marker" ).css( "display", "block");
-      }
-    }else{
-      console.log("come on dude, get your shit together.");
-    }
-  };
-
-  var weAreInTheMagicTimeWindow = function(){
-    var now = new Date(Date.now());
-    // real dates
-    // var timeStart = new Date(Date.parse("Tue May 28 2015 00:00:01 GMT+1000"));
-    // var timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
-    // debug dates 
-    var timeStart = new Date(Date.parse("Tue May 19 2015 00:00:01 GMT+1000"));
-    var timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
-
-    if( (now > timeStart) && (now < timeEnd)){
-      return true;
-    }else{
-      return false;
-    }
-  };
-
-  //move the marker according to the time.
-  var getRootElementFontSize = function() {
-    return parseFloat( getComputedStyle( document.documentElement ).fontSize ); //http://tzi.fr/js/snippet/convert-em-in-px
-  }
-  var timepx = function(offset){
-    return getRootElementFontSize()*(timeInEms()-offset);
-  };
-  var timeInEms = function(){
-    var now = new Date(Date.now());
-    //var now = new Date(Date.parse("Tue May 05 2015 19:30:00 GMT+1000"));
-    var time = now.getHours() + (now.getMinutes()/60) + (now.getSeconds()/3600); //time in decimal hours
-    var convertedTime = time * exchangeRate;
-    return convertedTime;
-  };
-  var moveMarker = function(){
-    convertedTime = timeInEms();
-    // console.log(convertedTime);
-    $(".time-marker").css( "top", convertedTime + "rem" );
-  }
-  var pointArrow = function(){
-    var jumpRectangle = document.getElementById("jump-button").getBoundingClientRect();
-    var yOffset       = window.pageYOffset;
-    var topOff        = jumpRectangle.top + (jumpRectangle.height/2);
-    var scrollOffset  = yOffset+topOff;
-    var d             = scrollOffset-timepx(0);
-    var adjacent      = window.innerWidth - (jumpRectangle.width/2);
-
-    var angle = -Math.atan(d/adjacent);
-
-    // console.log(
-    //             "yOffset",     Math.round(yOffset),
-    //             "topOff",      Math.round(topOff),
-    //             "scrollOffset",Math.round(scrollOffset),
-    //             "d",           Math.round(d),
-    //             "adjacent",    Math.round(adjacent),
-    //             "angle",       angle
-    //             );
-    document.getElementById("jump-button").style["transform"] = "rotate("+angle+"rad)";
-  };
-
-  //start doing real stuff
-  if(weAreInTheMagicTimeWindow()){console.log("We Are In The Magic Time Window");}
-  setInitialVisibility()
-    
-
-  if(/(iPhone|iPad|iPod)/g.test(    navigator.userAgent)){
-    //testing to see if we are on iOS
-    console.log("I'm an iOS");
-    document.getElementById("ios-homescreen-explainer").style["display"] = "block";
-    document.getElementById("explainer-section").style["display"] = "block";
-  }else if(/(Android*)/g.test( navigator.userAgent)){
-    //testing to see if we are on Android
-    console.log("I'm an android");
-    document.getElementById("android-homescreen-explainer").style["display"] = "block";
-    document.getElementById("explainer-section").style["display"] = "block";
-  }else{
-    //maybe on desktop or a windows phone.
-    console.log("I don't know where I am");
-  }
 
     var selectedCardManager = new function() {
       var selectedCard = null;
       this.removeCurrentCard = function() {
         $(selectedCard).children('.ff-twitter-widget').children().remove();
         selectedCard = null;
-
-        setCardState("out");
-
+        if (typeof setCardState === "function") { setCardState("out"); }
         $(".front").scrollTop(0);
       };
       this.setCurrentCard = function(newCard) {
@@ -262,8 +152,7 @@ $(document).ready(function() {
         twitterWidgetParent.append(twitterWidget);
         twttr.widgets.load(twitterWidgetParent[0]);
         // console.log('appended to: ', twitterWidgetParent);
-
-        setCardState("in");
+        if (typeof setCardState === "function") { setCardState("in"); }
       };
       this.manage = function(newCard) {
         console.log('Managing:', newCard);
@@ -274,86 +163,153 @@ $(document).ready(function() {
           console.log('removing current card');
           this.removeCurrentCard();
         }
-      }
+      };
     }();
 
-    //move the marker according to the time.
+    $('.card').on('click tap', function(e) {
+        selectedCardManager.manage(this);
+
+        $(this).toggleClass("live-one");
+        $('html, body').animate({
+            scrollTop: $(this).offset().top
+        }, 300);
+        $("body").toggleClass("noscroll");
+    });
+    
+    $(".menu-items a").each(function() {
+        if ($(this).attr("href") === window.location.pathname) {
+            $(this).parent().addClass("on-this-page");
+        }
+    });
+
+});
+</script>
+
+<script src="http://platform.twitter.com/widgets.js"></script>
+
+	<script type="text/javascript">
+$(document).ready(function() {
+    console.log("here we go");
+    console.log(navigator);
+
+    ///functions///
+    var setInitialVisibility = function() {
+        $(".twitter-feed").css("display", "none");
+        if (weAreInTheMagicTimeWindow()) {
+            $(".jump"       ).css("display", "block");
+            $(".time-marker").css("display", "block");
+        } else {
+            $(".jump"       ).css("display", "none");
+            $(".time-marker").css("display", "none");
+        }
+    };
+    var setCardState = function(cardState) {
+        if (cardState === "in") {
+            console.log("setting state in");
+            $(".twitter-feed").css("display", "block");
+            $(".jump"        ).css("display", "none");
+            $(".time-marker" ).css("display", "none");
+        } else if (cardState === "out") {
+            console.log("setting state out");
+            $(".twitter-feed").css("display", "none");
+            if (weAreInTheMagicTimeWindow()) {
+                $(".jump"       ).css("display", "block");
+                $(".time-marker").css("display", "block");
+            }
+        } else {
+            console.log("come on dude, get your shit together.");
+        }
+    };
+    var weAreInTheMagicTimeWindow = function() {
+        var now = new Date(Date.now());
+        // real dates
+        // var timeStart = new Date(Date.parse("Tue May 28 2015 00:00:01 GMT+1000"));
+        // var timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
+        // debug dates 
+        var timeStart = new Date(Date.parse("Tue May 19 2015 00:00:01 GMT+1000"));
+        var timeEnd = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
+
+        if ((now > timeStart) && (now < timeEnd)) {
+            return true;
+        } else {
+            return false;
+        }
+    };
     var getRootElementFontSize = function() {
-      return parseFloat( getComputedStyle( document.documentElement ).fontSize ); //http://tzi.fr/js/snippet/convert-em-in-px
+        //http://tzi.fr/js/snippet/convert-em-in-px
+        return parseFloat(getComputedStyle(document.documentElement).fontSize);
+    };
+    var timepx = function(offset) {
+        return getRootElementFontSize() * (timeInEms() - offset);
+    };
+    var timeInEms = function() {
+        var now = new Date(Date.now());
+        //var now = new Date(Date.parse("Tue May 05 2015 19:30:00 GMT+1000"));
+        var time = now.getHours() + (now.getMinutes() / 60) + (now.getSeconds() / 3600); //time in decimal hours
+        var convertedTime = time * exchangeRate;
+        return convertedTime;
+    };
+    var moveMarker = function() {
+        convertedTime = timeInEms();
+        // console.log(convertedTime); XXXX
+        $(".time-marker").css("top", convertedTime + "rem");
     }
-    var timepx = function(offset){
-      return getRootElementFontSize()*(timeInEms()-offset);
+    var pointArrow = function() {
+        var jumpRectangle = document.getElementById("jump-button").getBoundingClientRect();
+        var yOffset = window.pageYOffset;
+        var topOff = jumpRectangle.top + (jumpRectangle.height / 2);
+        var scrollOffset = yOffset + topOff;
+        var d = scrollOffset - timepx(0);
+        var adjacent = window.innerWidth - (jumpRectangle.width / 2);
+
+        var angle = -Math.atan(d / adjacent);
+
+        // console.log(
+        //             "yOffset",     Math.round(yOffset),
+        //             "topOff",      Math.round(topOff),
+        //             "scrollOffset",Math.round(scrollOffset),
+        //             "d",           Math.round(d),
+        //             "adjacent",    Math.round(adjacent),
+        //             "angle",       angle
+        //             );
+        $("jump-button").css("transform", "rotate(" + angle + "rad)");
     };
-    var timeInEms = function(){
-      var now = new Date(Date.now());
-      //var now = new Date(Date.parse("Tue May 05 2015 19:30:00 GMT+1000"));
-      var time = now.getHours() + (now.getMinutes()/60) + (now.getSeconds()/3600); //time in decimal hours
-      var convertedTime = time * exchangeRate;
-      return convertedTime;
-    };
-    var moveMarker = function(){
-      convertedTime = timeInEms();
-      // console.log(convertedTime);
-      $(".time-marker").css( "top", convertedTime + "rem" );
+
+    //start doing real stuff
+    if (weAreInTheMagicTimeWindow()) {
+        console.log("We Are In The Magic Time Window");
     }
-    var pointArrow = function(){
-      var jumpRectangle = document.getElementById("jump-button").getBoundingClientRect();
-      var yOffset       = window.pageYOffset;
-      var topOff        = jumpRectangle.top + (jumpRectangle.height/2);
-      var scrollOffset  = yOffset+topOff;
-      var d             = scrollOffset-timepx(0);
-      var adjacent      = window.innerWidth - (jumpRectangle.width/2);
-
-      var angle = -Math.atan(d/adjacent);
-
-      // console.log(
-      //             "yOffset",     Math.round(yOffset),
-      //             "topOff",      Math.round(topOff),
-      //             "scrollOffset",Math.round(scrollOffset),
-      //             "d",           Math.round(d),
-      //             "adjacent",    Math.round(adjacent),
-      //             "angle",       angle
-      //             );
-      document.getElementById("jump-button").style["-webkit-transform"] = "rotate("+angle+"rad)";
-      document.getElementById("jump-button").style["transform"] = "rotate("+angle+"rad)";
-    };
+    setInitialVisibility()
 
 
-    var exchangeRate= 20 ;//ems per hour
+    if (/(iPhone|iPad|iPod)/g.test(navigator.userAgent)) {
+        //testing to see if we are on iOS
+        console.log("I'm an iOS");
+        $("ios-homescreen-explainer").css("display", "block");
+        $("explainer-section").css("display", "block");
+    } else if (/(Android*)/g.test(navigator.userAgent)) {
+        //testing to see if we are on Android
+        console.log("I'm an android");
+        $("android-homescreen-explainer").css("display", "block");
+        $("explainer-section").css("display", "block");
+    } else {
+        //maybe on desktop or a windows phone.
+        console.log("I don't know where I am");
+    }
+
+    var exchangeRate = 20; //ems per hour
     moveMarker();
     pointArrow();
     window.setInterval(moveMarker, 30000);
-
-    $('.card').on('click tap', function(e) {
-        selectedCardManager.manage( this );
-
-        $(this).toggleClass("live-one");
-        $('html, body').animate({ scrollTop: $(this).offset().top }, 300);
-        $("body").toggleClass("noscroll");
-    });
 
     $('.jump').on('click tap', function(e) {
         window.scrollTo(0, timepx(20));
     });
 
-    $( window ).scroll(function(){
-
-      pointArrow();
-
-      if(!window.weHaveHadOneScroll){
-        moveMarker();
-        //is this hammering the performance?
-        window.weHaveHadOneScroll = true;
-        $("nav").addClass("in");
-        $(".stack-layer").removeClass("out");
-      }
+    $(window).scroll(function() {
+        pointArrow();
     });
 
-    $(".menu-items a").each(function(){
-      if($(this).attr("href") === window.location.pathname){
-        $(this).parent().addClass("on-this-page");
-      }
-    });
 
 });
 
@@ -367,7 +323,8 @@ $(document).ready(function() {
         fjs.parentNode.insertBefore(js, fjs);
     }
 }(document, "script", "twitter-wjs");
-</script>  
+</script>
+  
   </body>
 
 </html>
