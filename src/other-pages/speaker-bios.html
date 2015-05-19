@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="stack-layer">
+  {% for post in site.posts reversed  %}
+  {% if post.title == "Simon Longstaff: Ethics" %}
+  <h1>{{ post.title }}</h1>
+  {{post.content}}
+  {% elsif post.title == "Gitte Lindgaard" %}
+  <h1>{{ post.title }}</h1>
+  {{post.content}}
+  {% elsif post.title == "Anton Andrews" %}
+  <h1>{{ post.title }}</h1>
+  {{post.content}}
+  {% elsif post.title == "Lucas Verweij" %}
+  <h1>{{ post.title }}</h1>
+  {{post.content}}
+  {% elsif post.title == "Peter Buchanan" %}
+  <h1>{{ post.title }}</h1>
+  {{post.content}}
+  {% endif %}
+  {% endfor %}
+</div>
