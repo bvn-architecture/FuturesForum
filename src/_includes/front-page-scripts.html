@@ -1,0 +1,243 @@
+<script type="text/javascript">
+$(document).ready(function() {
+  console.log("here we go");
+  console.log(navigator);
+
+  ///functions///
+  var setInitialVisibility = function(){
+    $(".twitter-feed").css("display",  "none");
+    if(weAreInTheMagicTimeWindow()){
+      $(".jump").css(        "display", "block");
+      $(".time-marker").css( "display", "block");
+    }else{
+      $(".jump").css(        "display", "none");
+      $(".time-marker").css( "display", "none");
+    }
+  };
+  var setCardState = function(cardState){
+    if(cardState==="in"){
+      console.log("setting state in");
+      $(".twitter-feed").css( "display", "block");
+      $(".jump"        ).css( "display", "none");
+      $(".time-marker" ).css( "display", "none");
+    }else if(cardState==="out"){
+      console.log("setting state out");
+      $(".twitter-feed").css( "display", "none");
+      if(weAreInTheMagicTimeWindow()){
+        $(".jump"        ).css( "display", "block");
+        $(".time-marker" ).css( "display", "block");
+      }
+    }else{
+      console.log("come on dude, get your shit together.");
+    }
+  };
+
+  var weAreInTheMagicTimeWindow = function(){
+    var now = new Date(Date.now());
+    // real dates
+    // var timeStart = new Date(Date.parse("Tue May 28 2015 00:00:01 GMT+1000"));
+    // var timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
+    // debug dates 
+    var timeStart = new Date(Date.parse("Tue May 19 2015 00:00:01 GMT+1000"));
+    var timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
+
+    if( (now > timeStart) && (now < timeEnd)){
+      return true;
+    }else{
+      return false;
+    }
+  };
+
+  //move the marker according to the time.
+  var getRootElementFontSize = function() {
+    return parseFloat( getComputedStyle( document.documentElement ).fontSize ); //http://tzi.fr/js/snippet/convert-em-in-px
+  }
+  var timepx = function(offset){
+    return getRootElementFontSize()*(timeInEms()-offset);
+  };
+  var timeInEms = function(){
+    var now = new Date(Date.now());
+    //var now = new Date(Date.parse("Tue May 05 2015 19:30:00 GMT+1000"));
+    var time = now.getHours() + (now.getMinutes()/60) + (now.getSeconds()/3600); //time in decimal hours
+    var convertedTime = time * exchangeRate;
+    return convertedTime;
+  };
+  var moveMarker = function(){
+    convertedTime = timeInEms();
+    // console.log(convertedTime);
+    $(".time-marker").css( "top", convertedTime + "rem" );
+  }
+  var pointArrow = function(){
+    var jumpRectangle = document.getElementById("jump-button").getBoundingClientRect();
+    var yOffset       = window.pageYOffset;
+    var topOff        = jumpRectangle.top + (jumpRectangle.height/2);
+    var scrollOffset  = yOffset+topOff;
+    var d             = scrollOffset-timepx(0);
+    var adjacent      = window.innerWidth - (jumpRectangle.width/2);
+
+    var angle = -Math.atan(d/adjacent);
+
+    // console.log(
+    //             "yOffset",     Math.round(yOffset),
+    //             "topOff",      Math.round(topOff),
+    //             "scrollOffset",Math.round(scrollOffset),
+    //             "d",           Math.round(d),
+    //             "adjacent",    Math.round(adjacent),
+    //             "angle",       angle
+    //             );
+    document.getElementById("jump-button").style["transform"] = "rotate("+angle+"rad)";
+  };
+
+  //start doing real stuff
+  if(weAreInTheMagicTimeWindow()){console.log("We Are In The Magic Time Window");}
+  setInitialVisibility()
+    
+
+  if(/(iPhone|iPad|iPod)/g.test(    navigator.userAgent)){
+    //testing to see if we are on iOS
+    console.log("I'm an iOS");
+    document.getElementById("ios-homescreen-explainer").style["display"] = "block";
+    document.getElementById("explainer-section").style["display"] = "block";
+  }else if(/(Android*)/g.test( navigator.userAgent)){
+    //testing to see if we are on Android
+    console.log("I'm an android");
+    document.getElementById("android-homescreen-explainer").style["display"] = "block";
+    document.getElementById("explainer-section").style["display"] = "block";
+  }else{
+    //maybe on desktop or a windows phone.
+    console.log("I don't know where I am");
+  }
+
+    var selectedCardManager = new function() {
+      var selectedCard = null;
+      this.removeCurrentCard = function() {
+        $(selectedCard).children('.ff-twitter-widget').children().remove();
+        selectedCard = null;
+
+        setCardState("out");
+
+        $(".front").scrollTop(0);
+      };
+      this.setCurrentCard = function(newCard) {
+        selectedCard = newCard;
+        var twitterWidgetParent = $(selectedCard).find('.ff-twitter-widget');
+        var twitterWidget = $('<a href="">')
+          .addClass('twitter-timeline')
+          .attr('width','')
+          .attr('height','')
+          .attr('data-widget-id', twitterWidgetParent.data('widget-id'))
+          .attr('data-theme','light')
+          .attr('data-link-color','rgba(150,150,150,1)')
+          .attr('data-chrome','noheader nofooter noborders transparent noscrollbar')
+          .attr('data-tweet-limit','20')
+          .attr('data-aria-polite','polite')[0];
+        // console.log('created: ', twitterWidget);
+        twitterWidgetParent.append(twitterWidget);
+        twttr.widgets.load(twitterWidgetParent[0]);
+        // console.log('appended to: ', twitterWidgetParent);
+
+        setCardState("in");
+      };
+      this.manage = function(newCard) {
+        console.log('Managing:', newCard);
+        if (selectedCard === null) {
+          console.log('setting current card');
+          this.setCurrentCard(newCard);
+        } else {
+          console.log('removing current card');
+          this.removeCurrentCard();
+        }
+      }
+    }();
+
+    //move the marker according to the time.
+    var getRootElementFontSize = function() {
+      return parseFloat( getComputedStyle( document.documentElement ).fontSize ); //http://tzi.fr/js/snippet/convert-em-in-px
+    }
+    var timepx = function(offset){
+      return getRootElementFontSize()*(timeInEms()-offset);
+    };
+    var timeInEms = function(){
+      var now = new Date(Date.now());
+      //var now = new Date(Date.parse("Tue May 05 2015 19:30:00 GMT+1000"));
+      var time = now.getHours() + (now.getMinutes()/60) + (now.getSeconds()/3600); //time in decimal hours
+      var convertedTime = time * exchangeRate;
+      return convertedTime;
+    };
+    var moveMarker = function(){
+      convertedTime = timeInEms();
+      // console.log(convertedTime);
+      $(".time-marker").css( "top", convertedTime + "rem" );
+    }
+    var pointArrow = function(){
+      var jumpRectangle = document.getElementById("jump-button").getBoundingClientRect();
+      var yOffset       = window.pageYOffset;
+      var topOff        = jumpRectangle.top + (jumpRectangle.height/2);
+      var scrollOffset  = yOffset+topOff;
+      var d             = scrollOffset-timepx(0);
+      var adjacent      = window.innerWidth - (jumpRectangle.width/2);
+
+      var angle = -Math.atan(d/adjacent);
+
+      // console.log(
+      //             "yOffset",     Math.round(yOffset),
+      //             "topOff",      Math.round(topOff),
+      //             "scrollOffset",Math.round(scrollOffset),
+      //             "d",           Math.round(d),
+      //             "adjacent",    Math.round(adjacent),
+      //             "angle",       angle
+      //             );
+      document.getElementById("jump-button").style["-webkit-transform"] = "rotate("+angle+"rad)";
+      document.getElementById("jump-button").style["transform"] = "rotate("+angle+"rad)";
+    };
+
+
+    var exchangeRate= 20 ;//ems per hour
+    moveMarker();
+    pointArrow();
+    window.setInterval(moveMarker, 30000);
+
+    $('.card').on('click tap', function(e) {
+        selectedCardManager.manage( this );
+
+        $(this).toggleClass("live-one");
+        $('html, body').animate({ scrollTop: $(this).offset().top }, 300);
+        $("body").toggleClass("noscroll");
+    });
+
+    $('.jump').on('click tap', function(e) {
+        window.scrollTo(0, timepx(20));
+    });
+
+    $( window ).scroll(function(){
+
+      pointArrow();
+
+      if(!window.weHaveHadOneScroll){
+        moveMarker();
+        //is this hammering the performance?
+        window.weHaveHadOneScroll = true;
+        $("nav").addClass("in");
+        $(".stack-layer").removeClass("out");
+      }
+    });
+
+    $(".menu-items a").each(function(){
+      if($(this).attr("href") === window.location.pathname){
+        $(this).parent().addClass("on-this-page");
+      }
+    });
+
+});
+
+!function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+        p = /^http:/.test(d.location) ? 'http' : 'https';
+    if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = p + "://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+}(document, "script", "twitter-wjs");
+</script>
