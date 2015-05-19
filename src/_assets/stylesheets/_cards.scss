@@ -20,6 +20,7 @@
     img, svg {
         width: 100%;
     }
+    a{pointer-events: none;}
     #ios-homescreen-explainer{
       .explainer {
         width: 49%;
@@ -71,13 +72,15 @@
 
 .live-one.card .front {
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .live-one {
-    .back, .front {
+    //.front {
       //shadow are a perf hog
       //box-shadow: 1em 1em 30px 0px rgba(0, 0, 0, 0.6);
-    }
+    //}
+    a{pointer-events: all;}
     a.twitter-feed {display: block;}
 }
 
