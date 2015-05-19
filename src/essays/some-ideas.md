@@ -93,7 +93,7 @@ As for the rest of it…..bring it on, with maybe the addition of a barista.</p>
 </li>
 <li><span class="commenter">Kirby Rees</span>
 				
-<p>Totally agree with Katherine – merit based pay is where its at! People should be encouraged to be at their best! (At any stage of their professional development) <img src="./Some Ideas_ _ Tropos_files/icon_smile.gif" alt=":)" class="wp-smiley"></p>
+<p>Totally agree with Katherine – merit based pay is where its at! People should be encouraged to be at their best! (At any stage of their professional development) :)</p>
 
 </li>
 <li><span class="commenter">Ben Doherty</span>

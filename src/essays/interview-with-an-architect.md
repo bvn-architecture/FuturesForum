@@ -159,21 +159,21 @@ I wondered if there was some meaning in the names of the participants – Toohey
 <p>In this piece ‘Greendale’ isn’t so much ‘the idea of the architect to make a building as self-sustaining as possible’ but rather a necessary development responding to the state of the hypothetical environment in 15 years. It’s a response to climate change, droughts, scarce resources, the food crises, urbanisation and above all the increasing population. I don’t think this is too far-fetched given that in the last 45 years the world’s population has literally doubled and it’s growing by over 200,000 daily! </p>
 <p>I was surprised the environment and ESD wasn’t really a pop topic in these essays. I think ESD will be more intrinsic in all development in 15 years, not by choice but by necessity. While ESD is definitely more ingrained in architecture today than it was 15 years ago, buildings are still the single largest contributor to the world’s greenhouse gas emissions, which is clearly a problem. </p>
 <p>I agree with the comment above that “most buildings are driven by cost”. I think this is the main reason why currently no freestanding high-rise vertical farms exist today because potential funders and stakeholders remain unconvinced that such a radical departure from conventional agriculture and urban development will be financially feasible. However if I were to look at ‘Greendale’ “through the eyes of an economist” I would suggest that eco-nomies like any eco-system are stronger when there is a diverse range of economic relationships and combining the profits of the office block, apartment tower and retail space, with the profit from the Vertical Farm secures the profitability of the entire mixed-use structure. The whole becomes greater than the sum of the parts. I think government subsidies, carbon trading, energy savings through reduced operating costs, energy generation and the political, social and environmental benefits would be attractive to a variety of developers. </p>
-<p>Food for thought. <img src="./INTERVIEW WITH AN ARCHITECT _ Tropos_files/icon_wink.gif" alt=";)" class="wp-smiley"></p>
+<p>Food for thought. ;)</p>
 </li>
 
 <li><span class="commenter">Jared Bird</span>
 <p>The Shopfront/Science Museum practice model would be a good way to help people get it...</p>				
 </li>
 <li><span class="commenter">Joseph O'Meara</span>
-<p>Hey Ben, thanks for the comments! Now that our identities have been revealed I can safely reply to these without letting the cat out of the bag. <img src="./INTERVIEW WITH AN ARCHITECT _ Tropos_files/icon_smile.gif" alt=":)" class="wp-smiley"></p>
+<p>Hey Ben, thanks for the comments! Now that our identities have been revealed I can safely reply to these without letting the cat out of the bag. :)</p>
 <p>I don’t think Francis was suggesting “AI software is doomed to always be just a tool” but rather using virtual and augmented reality to design buildings still requires a designer to operate them. I think VR and AR have endless possibilities in architecture in the future which I talked about in the piece, however I think that even with advanced technological advancements there will still be a need for architects because software doesn’t acknowledge the creative process which is a very human response.<br>
 This is the opposite take on the more dystopian views some have suggested in their pieces whereby AI has spawned the end of the architect.</p>
 </li>
 
 <li><span class="commenter">Joseph O'Meara</span>
 <p>Hey David, well spotted! FLW was referring to Frank Lloyd Wright and EMT was referring to Ellsworth Monkton Toohey. This was for no real reason other than Wright is arguably the most famous architect and Toohey is a famous fictional architectural critic, interviewer and writer.<br>
-No greater meaning behind it. <img src="./INTERVIEW WITH AN ARCHITECT _ Tropos_files/icon_smile.gif" alt=":)" class="wp-smiley"></p>
+No greater meaning behind it. :)</p>
 </li>
 
 <li><span class="commenter">Joseph O'Meara</span>

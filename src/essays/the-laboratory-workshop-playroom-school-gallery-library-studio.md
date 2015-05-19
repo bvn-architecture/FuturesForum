@@ -7,8 +7,10 @@ author: Andy Ostojic
 
 <p>Following the national studio meeting and LEAN workshop, my focus was on what the architecture / design profession sells, what sets it apart from other professions and professionals, defining this and considering a possibility of what an AOOTF could be based on this…</p>
 <ol>
-<li>What do we sell?<br>
-We sell our imagination; we practice creativity<br>
+<li>What do we sell?
+
+We sell our imagination; we practice creativity
+
 We sell our skill to realise our (or a client’s) imagination by means of producing and monitoring a set of instructions</li>
 <li>Definitions of what we sell
 <div class="dic-definition">
@@ -71,30 +73,61 @@ We sell our skill to realise our (or a client’s) imagination by means of produ
 <li>It’s a studio, because we do the above in an artful way</li>
 </ul>
 </li>
-<li>Leave it to technology to document our imagination<br>
+<li>Leave it to technology to document our imagination
+
 We could be modelling with real stuff with software that documents instructions from which to build.<p></p>
-<p><iframe width="640" height="360" src="./AOOTF – The Laboratory Workshop Playroom School Gallery Library Studio _ Tropos_files/fs6sjxjk5x0.html" frameborder="0" allowfullscreen=""></iframe></p>
-<p><img class="alignnone wp-image-19119 size-full" src="./AOOTF – The Laboratory Workshop Playroom School Gallery Library Studio _ Tropos_files/legoxgravity_4.jpg" alt="legoxgravity_4" width="530" height="475"><br>
-Just as the example above relies on large block (Lego Duplo), a system is being developed for regular Lego pieces such as Lego Architecture studio<br>
-<img class="alignright size-full wp-image-19116" src="./AOOTF – The Laboratory Workshop Playroom School Gallery Library Studio _ Tropos_files/Legoarchitecturestudio_1.jpg" alt="Legoarchitecturestudio_1" width="1500" height="811"><br>
+<p><iframe width="640" height="360" src="https://www.youtube.com/embed/fs6sjxjk5x0" frameborder="0" allowfullscreen=""></iframe></p>
+<p>
+{% picture essays/legoxgravity_4.jpg alt="essays/legoxgravity_4.jpg" title="" %}
+
+
+Just as the example above relies on large block (Lego Duplo), a system is being developed for regular Lego pieces such as Lego Architecture studio
+
+
+{% picture essays/Legoarchitecturestudio_1.jpg alt="essays/Legoarchitecturestudio_1.jpg" title="" %}
+
+
 What if, similar to how pixel technology has developed over the past 15 years and where it’s heading,</p>
-<div style="clear: both;"><img class="alignright size-full wp-image-19111" style="width: 45%;" src="./AOOTF – The Laboratory Workshop Playroom School Gallery Library Studio _ Tropos_files/iphone-game_2.jpg" alt="iphone game_2"><br>
-<img class="alignleft wp-image-19124 " style="width: 45%;" src="./AOOTF – The Laboratory Workshop Playroom School Gallery Library Studio _ Tropos_files/nokia-snake_1.jpg" alt="nokia snake_1"></div>
 <div style="clear: both;">
-<img class="alignright size-full wp-image-19121" style="width: 45%;" src="./AOOTF – The Laboratory Workshop Playroom School Gallery Library Studio _ Tropos_files/minority-report_1.jpg" alt="minority report_1" width="2197" height="1463"><img class="alignnone size-full wp-image-19120" style="width: 45%;" src="./AOOTF – The Laboratory Workshop Playroom School Gallery Library Studio _ Tropos_files/microsoft_perceptive-pixel.jpg" alt="microsoft_perceptive pixel" width="730" height="483"></div>
-<p>Lego blocks are&nbsp;replaced with kinetic sand or plasticine?<br>
-<img class="alignnone wp-image-19114 size-full" src="./AOOTF – The Laboratory Workshop Playroom School Gallery Library Studio _ Tropos_files/kinetic-sand_3.jpg" alt="kinetic sand_3" width="567" height="476"></p></li>
-<li><img class="alignnone wp-image-19113 size-full" src="./AOOTF – The Laboratory Workshop Playroom School Gallery Library Studio _ Tropos_files/kinetic-sand_2.jpg" alt="kinetic sand_2" width="600" height="431"></li>
-<li>Scope – what does this look like?<br>
-Just as a construction site is our office, our AOOTF could not resemble a traditional office as we know it. For example, if you don’t count the builder’s site office, there are no desks on a construction site.<br>
-<img class="alignnone wp-image-19109 size-full" src="./AOOTF – The Laboratory Workshop Playroom School Gallery Library Studio _ Tropos_files/construction-site_2.jpg" alt="construction site_2" width="635" height="380"><br>
-Do we need to reflect a corporate conservatism at all? Why? Our profession is inherently based on creativity. Is it a less orchestrated space? Can we have a meeting on the floor or leaning against a wall?<br>
+{% picture essays/iphone-game_2.jpg alt="essays/iphone-game_2.jpg" title="" %}
+
+{% picture essays/nokia-snake_1.jpg alt="essays/nokia-snake_1.jpg" title="" %}
+</div>
+<div style="clear: both;">
+
+{% picture essays/minority-report_1.jpg alt="essays/minority-report_1.jpg" title="" %}
+
+{% picture essays/microsoft_perceptive-pixel.jpg alt="essays/microsoft_perceptive-pixel.jpg" title="" %}
+</div>
+<p>Lego blocks are&nbsp;replaced with kinetic sand or plasticine?
+
+
+{% picture essays/kinetic-sand_3.jpg alt="essays/kinetic-sand_3.jpg" title="" %}
+</p></li>
+<li>
+{% picture essays/kinetic-sand_2.jpg alt="essays/kinetic-sand_2.jpg" title="" %}
+</li>
+<li>Scope – what does this look like?
+
+Just as a construction site is our office, our AOOTF could not resemble a traditional office as we know it. For example, if you don’t count the builder’s site office, there are no desks on a construction site.
+
+
+{% picture essays/construction-site_2.jpg alt="essays/construction-site_2.jpg" title="" %}
+
+
+Do we need to reflect a corporate conservatism at all? Why? Our profession is inherently based on creativity. Is it a less orchestrated space? Can we have a meeting on the floor or leaning against a wall?
+
 The AOOTF could enable ourselves to go to work to investigate, create, play, perfect, learn and admire every day when you feel the need to.</li>
-<li>How could this AOOTF operate?<br>
-Foster spontaneity with ‘bump’ / chance meetings with other colleagues to expand the richness and quality of our collective imagination. Nurture ‘core’ purpose. At all hours?<br>
-<img class="alignright size-full wp-image-19127" src="./AOOTF – The Laboratory Workshop Playroom School Gallery Library Studio _ Tropos_files/open-24hrs_neon-sign_1.jpg" alt="open 24hrs_neon sign_1" width="3072" height="2304"></li>
+<li>How could this AOOTF operate?
+
+Foster spontaneity with ‘bump’ / chance meetings with other colleagues to expand the richness and quality of our collective imagination. Nurture ‘core’ purpose. At all hours?
+
+
+{% picture essays/open-24hrs_neon-sign_1.jpg alt="essays/open-24hrs_neon-sign_1.jpg" title="" %}
+</li>
 </ol>
-<p>Does it fall under the banner of BVN, not necessarily under the BVN brand? Can it be trialled within the current studio as a secondment?<br>
+<p>Does it fall under the banner of BVN, not necessarily under the BVN brand? Can it be trialled within the current studio as a secondment?
+
 Do we hold classes and invite external / community participation and learning?</p>
 
 <ol>
