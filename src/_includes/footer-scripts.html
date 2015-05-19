@@ -1,10 +1,51 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 <script type="text/javascript">
-  $('.menu-button').on('click tap', function(e) {
+$(document).ready(function() {
+    $('.menu-button').on('click tap', function(e) {
         e.preventDefault();
         $("nav").toggleClass("in");
     });
+
+    var selectedCardManager = new function() {
+      var selectedCard = null;
+      this.removeCurrentCard = function() {
+        $(selectedCard).children('.ff-twitter-widget').children().remove();
+        selectedCard = null;
+        if (typeof setCardState === "function") { setCardState("out"); }
+        $(".front").scrollTop(0);
+      };
+      this.setCurrentCard = function(newCard) {
+        selectedCard = newCard;
+        var twitterWidgetParent = $(selectedCard).find('.ff-twitter-widget');
+        var twitterWidget = $('<a href="">')
+          .addClass('twitter-timeline')
+          .attr('width','')
+          .attr('height','')
+          .attr('data-widget-id', twitterWidgetParent.data('widget-id'))
+          .attr('data-theme','light')
+          .attr('data-link-color','rgba(150,150,150,1)')
+          .attr('data-chrome','noheader nofooter noborders transparent noscrollbar')
+          .attr('data-tweet-limit','20')
+          .attr('data-aria-polite','polite')[0];
+        // console.log('created: ', twitterWidget);
+        twitterWidgetParent.append(twitterWidget);
+        twttr.widgets.load(twitterWidgetParent[0]);
+        // console.log('appended to: ', twitterWidgetParent);
+        if (typeof setCardState === "function") { setCardState("in"); }
+      };
+      this.manage = function(newCard) {
+        console.log('Managing:', newCard);
+        if (selectedCard === null) {
+          console.log('setting current card');
+          this.setCurrentCard(newCard);
+        } else {
+          console.log('removing current card');
+          this.removeCurrentCard();
+        }
+      };
+    }();
+});
 </script>
 
 <script src="http://platform.twitter.com/widgets.js"></script>
