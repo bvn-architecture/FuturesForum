@@ -177,6 +177,6 @@ No greater meaning behind it. :)</p>
 </li>
 
 <li><span class="commenter">Joseph O'Meara</span>
-<p>Thanks Katherine! I’d love to have a chat and help out however I can. <img src="./INTERVIEW WITH AN ARCHITECT _ Tropos_files/icon_smile.gif" alt=":)" class="wp-smiley">
+<p>Thanks Katherine! I’d love to have a chat and help out however I can. :)
 </p>
 </li>
