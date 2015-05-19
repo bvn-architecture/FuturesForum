@@ -45,6 +45,23 @@ $(document).ready(function() {
         }
       };
     }();
+
+    $('.card').on('click tap', function(e) {
+        selectedCardManager.manage(this);
+
+        $(this).toggleClass("live-one");
+        $('html, body').animate({
+            scrollTop: $(this).offset().top
+        }, 300);
+        $("body").toggleClass("noscroll");
+    });
+    
+    $(".menu-items a").each(function() {
+        if ($(this).attr("href") === window.location.pathname) {
+            $(this).parent().addClass("on-this-page");
+        }
+    });
+
 });
 </script>
 

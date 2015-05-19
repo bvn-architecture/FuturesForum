@@ -113,16 +113,6 @@ $(document).ready(function() {
     pointArrow();
     window.setInterval(moveMarker, 30000);
 
-    $('.card').on('click tap', function(e) {
-        selectedCardManager.manage(this);
-
-        $(this).toggleClass("live-one");
-        $('html, body').animate({
-            scrollTop: $(this).offset().top
-        }, 300);
-        $("body").toggleClass("noscroll");
-    });
-
     $('.jump').on('click tap', function(e) {
         window.scrollTo(0, timepx(20));
     });
@@ -131,11 +121,6 @@ $(document).ready(function() {
         pointArrow();
     });
 
-    $(".menu-items a").each(function() {
-        if ($(this).attr("href") === window.location.pathname) {
-            $(this).parent().addClass("on-this-page");
-        }
-    });
 
 });
 
