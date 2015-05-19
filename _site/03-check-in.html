@@ -34,7 +34,7 @@
   <meta name="description" content="Check in will occur upon transfer from either the Creek Street studio or Brisbane domestic airport. ">
 
     <style>/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}</style>
-           <link rel="stylesheet" href="/FuturesForum/assets/main-7d7aef4b4779130a0e3af2366c09c0e9.css">
+           <link rel="stylesheet" href="/FuturesForum/assets/main-11fe1b99c4f80f1b0bbd977d291bbbba.css">
   
 
   <link rel="canonical" href="http://bvn-architecture.github.io/FuturesForum//03-check-in.html">
@@ -90,18 +90,58 @@
 </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-<script>
+<script type="text/javascript">
+  $('.menu-button').on('click tap', function(e) {
+        e.preventDefault();
+        $("nav").toggleClass("in");
+    });
+</script>
+
+<script src="http://platform.twitter.com/widgets.js"></script>
+	<script type="text/javascript">
 $(document).ready(function() {
   console.log("here we go");
   console.log(navigator);
 
   ///functions///
+  var setInitialVisibility = function(){
+    $(".twitter-feed").css("display",  "none");
+    if(weAreInTheMagicTimeWindow()){
+      $(".jump").css(        "display", "block");
+      $(".time-marker").css( "display", "block");
+    }else{
+      $(".jump").css(        "display", "none");
+      $(".time-marker").css( "display", "none");
+    }
+  };
+  var setCardState = function(cardState){
+    if(cardState==="in"){
+      console.log("setting state in");
+      $(".twitter-feed").css( "display", "block");
+      $(".jump"        ).css( "display", "none");
+      $(".time-marker" ).css( "display", "none");
+    }else if(cardState==="out"){
+      console.log("setting state out");
+      $(".twitter-feed").css( "display", "none");
+      if(weAreInTheMagicTimeWindow()){
+        $(".jump"        ).css( "display", "block");
+        $(".time-marker" ).css( "display", "block");
+      }
+    }else{
+      console.log("come on dude, get your shit together.");
+    }
+  };
+
   var weAreInTheMagicTimeWindow = function(){
     var now = new Date(Date.now());
-    var timeStart = new Date(Date.parse("Tue May 28 2015 00:00:01 GMT+1000"));
+    // real dates
+    // var timeStart = new Date(Date.parse("Tue May 28 2015 00:00:01 GMT+1000"));
+    // var timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
+    // debug dates 
+    var timeStart = new Date(Date.parse("Tue May 19 2015 00:00:01 GMT+1000"));
     var timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
+
     if( (now > timeStart) && (now < timeEnd)){
-      console.log("OMG, The futures forum is ON!!!");
       return true;
     }else{
       return false;
@@ -148,13 +188,10 @@ $(document).ready(function() {
     document.getElementById("jump-button").style["transform"] = "rotate("+angle+"rad)";
   };
 
-  $(".twitter-feed").css("display",  "none");
-  
-  if(weAreInTheMagicTimeWindow()){
-    $(".twitter-feed").css("display", "block");
-    $(".jump").css(        "display", "block");
-    $(".time-marker").css( "display", "block");
-  }
+  //start doing real stuff
+  if(weAreInTheMagicTimeWindow()){console.log("We Are In The Magic Time Window");}
+  setInitialVisibility()
+    
 
   if(/(iPhone|iPad|iPod)/g.test(    navigator.userAgent)){
     //testing to see if we are on iOS
@@ -177,9 +214,7 @@ $(document).ready(function() {
         $(selectedCard).children('.ff-twitter-widget').children().remove();
         selectedCard = null;
 
-        $(".jump").css(        "display", "block");
-        $(".time-marker").css( "display", "block");
-        $(".twitter-feed").css("display",  "none");
+        setCardState("out");
 
         $(".front").scrollTop(0);
       };
@@ -201,9 +236,7 @@ $(document).ready(function() {
         twttr.widgets.load(twitterWidgetParent[0]);
         // console.log('appended to: ', twitterWidgetParent);
 
-        $(".jump").css(        "display", "none");
-        $(".time-marker").css( "display", "none");
-        $(".twitter-feed").css("display", "block");
+        setCardState("in");
       };
       this.manage = function(newCard) {
         console.log('Managing:', newCard);
@@ -216,18 +249,6 @@ $(document).ready(function() {
         }
       }
     }();
-
-    var weAreInTheMagicTimeWindow = function(){
-      var now = new Date(Date.now());
-      var timeStart = new Date(Date.parse("Tue May 28 2015 00:00:01 GMT+1000"));
-      var timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
-      if( (now > timeStart) && (now < timeEnd)){
-        console.log("OMG, The futures forum is ON!!!");
-        return true;
-      }else{
-        return false;
-      }
-    };
 
     //move the marker according to the time.
     var getRootElementFontSize = function() {
@@ -288,18 +309,6 @@ $(document).ready(function() {
         window.scrollTo(0, timepx(20));
     });
 
-    $('.menu-button').on('click tap', function(e) {
-        e.preventDefault();
-        moveMarker();
-        // if(!window.weHaveHadOneScroll){
-        //     window.weHaveHadOneScroll = true;
-        //     $(".stack-layer").removeClass("out");
-        //     console.log("removed out");
-
-        // }
-        $("nav").toggleClass("in");
-    });
-
     $( window ).scroll(function(){
 
       pointArrow();
@@ -331,10 +340,7 @@ $(document).ready(function() {
         fjs.parentNode.insertBefore(js, fjs);
     }
 }(document, "script", "twitter-wjs");
-</script>
-
-<script src="http://platform.twitter.com/widgets.js"></script>
-	  
+</script>  
   </body>
 
 </html>
