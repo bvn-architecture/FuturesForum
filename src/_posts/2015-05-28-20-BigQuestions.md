@@ -2,7 +2,7 @@
 layout         : post
 title          : "Big Questions"
 
-hashtags       : ["FuturesForum", "gettingthere"]
+hashtags       : ["FuturesForum", "bigquestions", architecture]
 mentions       : ["architectureBVN"]
 tweet-text     :
 twitter-widget-id: 347154675793022976
@@ -16,8 +16,6 @@ length         :            00:30:00
 gradient       : noon
 
 ---
-
-
 
 
 Simon is a nice guy, he's very clever

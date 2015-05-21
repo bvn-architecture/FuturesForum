@@ -2,7 +2,7 @@
 layout         : post
 title          : "transfer to airport/CBD"
 
-hashtags       : ["FuturesForum", "gettingthere"]
+hashtags       : ["FuturesForum", "bye"]
 mentions       : ["architectureBVN"]
 tweet-text     :
 twitter-widget-id: 347154675793022976

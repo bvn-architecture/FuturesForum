@@ -2,7 +2,7 @@
 layout         : post
 title          : "find rooms and prepare for evening"
 
-hashtags       : ["FuturesForum", "gettingthere"]
+hashtags       : ["FuturesForum", "unparalleledLuxury"]
 mentions       : ["architectureBVN"]
 tweet-text     :
 twitter-widget-id: 347154675793022976

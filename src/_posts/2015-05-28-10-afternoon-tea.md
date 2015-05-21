@@ -2,7 +2,7 @@
 layout         : post
 title          : "afternoon tea"
 
-hashtags       : ["FuturesForum", "madhatter", "tea"]
+hashtags       : ["FuturesForum", "madhatter"]
 mentions       :
 tweet-text     :
 twitter-widget-id: 347154675793022976
@@ -15,5 +15,7 @@ gradient       : seven
 ---
 
 {% include tea.svg %}
+
+Take a moment to absorb what's happened so far!
 
 <div class="the-map">{% include ff-map.svg %}</div>
