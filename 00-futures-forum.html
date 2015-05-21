@@ -190,12 +190,24 @@
 </div>
 </section>
 
-<h3 id="jump-to-now">Jump to now</h3>
-<div class="jump" style="transform: rotate(23.6deg); float:left;">
+<div style="transform: rotate(23.6deg); 
+            float:left;
+            width: 2.5em;
+            height: 2.5em;
+            margin: 1em;
+            padding: 0.5em;
+            border-radius: 50%;
+            color: white;
+            background-color: darkorange;
+            text-align: center;
+            font-size: 110%;">
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 64 64">
         <path d="M28.7 41.4l-2.8-2.8 6.6-6.6-6.6-6.6 2.8-2.8 9.4 9.4" />
     </svg>
 </div>
+
+<h3 id="jump-to-now">Jump to now</h3>
+
 <p>During the event if you want to jump to what’s happening right now just press the jump button.</p>
 
 <h2 id="what-to-pack">What to pack?</h2>
@@ -372,7 +384,7 @@ $(document).ready(function() {
         //             "adjacent",    Math.round(adjacent),
         //             "angle",       angle
         //             );
-        $("jump-button").css("transform", "rotate(" + angle + "rad)");
+        $("#jump-button").css("transform", "rotate(" + angle + "rad)");
     };
 
     //start doing real stuff
