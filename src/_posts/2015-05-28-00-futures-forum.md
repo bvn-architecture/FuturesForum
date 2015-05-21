@@ -62,12 +62,24 @@ Please tweet a lot about the Futures Forum! Each event has a button that will pr
 </div>
 </section>
 
-### Jump to now
-<div class="jump" style="transform: rotate(23.6deg); float:left;">
+<div style="transform: rotate(23.6deg); 
+            float:left;
+            width: 2.5em;
+            height: 2.5em;
+            margin: 1em;
+            padding: 0.5em;
+            border-radius: 50%;
+            color: white;
+            background-color: darkorange;
+            text-align: center;
+            font-size: 110%;">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
         <path d="M28.7 41.4l-2.8-2.8 6.6-6.6-6.6-6.6 2.8-2.8 9.4 9.4"/>
     </svg>
 </div>
+
+### Jump to now
+
 During the event if you want to jump to what's happening right now just press the jump button.
 
 
