@@ -17,5 +17,3 @@ gradient       : seven
 {% include tea.svg %}
 
 Take a moment to absorb what's happened so far!
-
-<div class="the-map">{% include ff-map.svg %}</div>

@@ -85,9 +85,12 @@ During the event if you want to jump to what's happening right now just press th
 
 ## What to pack? ##
 
-* swimmers for dolphin feeding
-* tuxedo for pecha kucha
+* swimmers for dolphin feeding (wet clothes)
+* warm clothes (the evenings are cool!)
 * toothbrush
+* Phone charger cable
+* camera
+* ID for flying (Your ID, not anyone else's. It needs to have the same as your booking.)
 
 ## What *not* to pack? ##
 
