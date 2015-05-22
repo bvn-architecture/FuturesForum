@@ -94,7 +94,6 @@ assets:
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/images
-    - _assets/cache
   #
   # Sets JS compressor. No compression by default.
   # Possible variants: 'yui', 'uglifier', nil
