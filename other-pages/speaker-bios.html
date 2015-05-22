@@ -503,7 +503,7 @@ $(document).ready(function() {
         // var timeStart = new Date(Date.parse("Tue May 28 2015 00:00:01 GMT+1000"));
         // var timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
         // debug dates 
-        var timeStart = new Date(Date.parse("Tue May 19 2015 00:00:01 GMT+1000"));
+        var timeStart = new Date(Date.parse("Tue May 21 2015 00:00:01 GMT+1000"));
         var timeEnd = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
 
         if ((now > timeStart) && (now < timeEnd)) {
@@ -587,17 +587,6 @@ $(document).ready(function() {
 
 
 });
-
-!function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0],
-        p = /^http:/.test(d.location) ? 'http' : 'https';
-    if (!d.getElementById(id)) {
-        js = d.createElement(s);
-        js.id = id;
-        js.src = p + "://platform.twitter.com/widgets.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }
-}(document, "script", "twitter-wjs");
 </script>
   
   </body>
