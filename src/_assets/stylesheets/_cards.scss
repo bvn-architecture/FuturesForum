@@ -1,6 +1,6 @@
 .card {
-    padding: 0.5em 1em;
-    padding-bottom: 1em;
+    padding: 0.1em;
+    //padding-bottom: 1em;
     position: relative;
     transition: height 0.3s;
     //perspective: 800px;
@@ -39,7 +39,7 @@
         left: 0.2em;
         background-color: rgba(0, 0, 0, 0.4);
         padding: 1px 5px;
-        border-radius: 0.7em;
+        //border-radius: 0.7em;
         font-size: 75%;
     }
     .meta-box{

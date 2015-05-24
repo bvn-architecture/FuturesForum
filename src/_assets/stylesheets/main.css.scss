@@ -111,3 +111,75 @@ p {
 }
 
 .noscroll{overflow: hidden;}
+
+//PT tweaks
+#futures-forum h1 {
+  border-bottom: 1px solid white;
+  background-color: black;
+  color: white;
+  display: block;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 0.3em;
+  z-index: 2000;
+}
+
+.logo-box.logo-box{
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background: orange;//TODO make this a pattern
+    width: 100%
+}
+.menu-button{
+    padding: 0;
+    font-size: 27px;
+    a{
+        border-radius: 0;
+        border: none;
+        border-left:   1px solid white;
+        border-bottom: 1px solid white;
+    }
+}
+
+.time-marker{
+    .time {
+      width: 3em;
+      background-color: aqua;
+      text-align: center;
+      margin: auto;
+    }
+    .line {
+      border-top: 3px solid aqua;
+      transform: translateY(-0.7em);
+    }
+}
+
+.day-marker.day-marker{
+    height: 10em;
+    background-color: black;
+    h2 {
+      color: white;
+      position: static ;
+      border-bottom: none ;
+      text-align: center;
+      padding-top: 1em ;
+    }
+}
+
+p.bed-mate{
+    text-align: center;
+    font-size: 90%;
+    margin: 0;
+}
+
+.card {
+  h1 {
+    padding-top: 1rem;
+  }
+  .start-time {
+    top: 0.4em;
+    left: 0.4em;
+  }
+}

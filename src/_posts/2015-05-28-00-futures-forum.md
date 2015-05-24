@@ -13,8 +13,9 @@ length           :            08:00:00
 gradient         : one
 
 ---
-
+<div class="logo-box">
 {% include futures_forum_logo_bw.svg %}
+</div>
 
 Welcome to the Futures Forum!
 
@@ -85,15 +86,19 @@ During the event if you want to jump to what's happening right now just press th
 
 ## What to pack? ##
 
-* swimmers for dolphin feeding (wet clothes)
+* swimmers for dolphin feeding (clothes that you can get wet in; you might get wet up to your waist feeding the dolphins).
 * warm clothes (the evenings are cool!)
 * toothbrush
 * Phone charger cable
 * camera
-* ID for flying (Your ID, not anyone else's. It needs to have the same as your booking.)
+* ID for flying (Your ID, not anyone else's. It needs to have the same name as your booking.)
 
 ## What *not* to pack? ##
 
 * laptop
 * pets
 * towels
+
+<div class="day-marker">
+<h2>Day One</h2>
+</div>

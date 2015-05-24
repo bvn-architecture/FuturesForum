@@ -7,8 +7,8 @@ mentions       :
 tweet-text     :
 twitter-widget-id: 601214892184457216
 
-CPD-points     : 900
-CPD-type       : Formal
+CPD-points     : 1
+CPD-type       : informal
 
 date           : 2015-05-29 09:30:00 +10:00
 length         :            01:00:00

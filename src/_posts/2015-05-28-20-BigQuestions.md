@@ -7,7 +7,7 @@ mentions       : ["architectureBVN"]
 tweet-text     :
 twitter-widget-id: 601214665021005824
 
-CPD-points     : 100
+CPD-points     : 0.5
 CPD-type       : informal
 
 date           : 2015-05-29 09:00:00 +10:00

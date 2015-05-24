@@ -13,7 +13,7 @@ layout: default
       <article class="post-content">
         <div class="meta-box">
           {% if post.CPD-points %}
-            <span class="number">{{post.CPD-points}}</span> {% if post.CPD-type %}{{post.CPD-type}} CPD points{% endif %}
+            <span class="number">{{post.CPD-points}}</span> {% if post.CPD-type %}{{post.CPD-type}} CPD point{% if post.CPD-points != 1 %}s{% endif %}{% endif %}
           {% endif %}
           <a class="twitter-feed"
              href="https://twitter.com/intent/tweet?text={% for hashtag in post.hashtags %}%23{{ hashtag | uri_escape }}%20{% endfor %}{% for mention in post.mentions %}%40{{ mention | uri_escape }}%20{% endfor %}{% if post.tweet-text %}{{ post.tweet-text | uri_escape }}{% endif %}"
