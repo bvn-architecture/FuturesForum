@@ -1,6 +1,6 @@
 ---
 layout         : post
-title          : "Futures Discourse"
+title          : "Idea Sessions"
 
 hashtags       : ["FuturesForum", "brains"]
 mentions       : ["architectureBVN"]
@@ -10,8 +10,8 @@ twitter-widget-id: 601215304329396224
 CPD-points     : 100
 CPD-type       : informal
 
-date           : 2015-05-29 13:30:00 +10:00
-length         :            01:30:00
+date           : 2015-05-29 10:45:00 +10:00
+length         :            02:00:00
                           # hh:mm:ss
 gradient       : five
 

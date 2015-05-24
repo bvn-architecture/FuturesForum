@@ -14,7 +14,6 @@ gradient       : eight
 
 ---
 
-todo beers and get on with it
-
+All the hard work is done. Just kick back on the boat, watch the sun set and let all the ideas roll around your subconcious.
 
 <div class="the-map">{% include ff-map.svg %}</div>

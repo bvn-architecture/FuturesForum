@@ -1,6 +1,6 @@
 ---
 layout         : post
-title          : "Big Questions"
+title          : "#architecture #bigquestions"
 
 hashtags       : ["FuturesForum", "bigquestions", architecture]
 mentions       : ["architectureBVN"]
@@ -19,7 +19,8 @@ gradient       : noon
 
 By now you all know the story of David Hilbert and his questions to the mathematical community. We asked for the architecture world to ask their own big questions and this is the first time we've had to examine what came up.
 
-TODO what is the intended outcome of this session?
+Twitter is like a river of content, sometimes it's hard to maintain an overview. This session's intent is to provide that overview.
 
+Ben Doherty is going to try to glean some meaning from all the tweets.
 
 <div class="the-map">{% include ff-map.svg %}</div>
