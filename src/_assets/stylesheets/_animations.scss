@@ -70,14 +70,8 @@ path.steam {
 svg#plane {
     -webkit-transform-origin: 50% -500%;
             transform-origin: 50% -500%;
-    -webkit-transform-origin: 50% -500%;
-            transform-origin: 50% -500%;
     -webkit-transform-style: preserve-3D;
             transform-style: preserve-3D;
-    -webkit-transform-style: preserve-3D;
-            transform-style: preserve-3D;
-    -webkit-animation: fly 10s infinite ease-in-out;
-            animation: fly 10s infinite ease-in-out;
     -webkit-animation: fly 10s infinite ease-in-out;
             animation: fly 10s infinite ease-in-out;
 }
@@ -171,10 +165,6 @@ svg#plane {
 .zeds {
     -webkit-transform-origin: 50% 50%;
             transform-origin: 50% 50%;
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-    -webkit-animation: snooze 10s infinite linear;
-            animation: snooze 10s infinite linear;
     -webkit-animation: snooze 10s infinite linear;
             animation: snooze 10s infinite linear;
 }
@@ -195,27 +185,61 @@ svg#plane {
 }
 
 
-.wheels {
+.wheel {
     -webkit-transform-origin: 50% 50%;
             transform-origin: 50% 50%;
-    -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
-    -webkit-animation: roll 10s infinite linear;
-            animation: roll 10s infinite linear;
-    -webkit-animation: roll 10s infinite linear;
-            animation: roll 10s infinite linear;
+    -webkit-animation: roll 0.5s infinite linear;
+            animation: roll 0.5s infinite linear;
 }
-@keyframes rollroll {
+@keyframes roll {
     0% {
-        -webkit-transform: translateX( 0px) translateY( 0px) rotate(0deg);
-                transform: translateX( 0px) translateY( 0px) rotate(0deg);
-    }
-    50% {
-        -webkit-transform: translateX(-5px) translateY( 5px) rotate(180deg);
-                transform: translateX(-5px) translateY( 5px) rotate(180deg);
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
     }
     100% {
-        -webkit-transform: translateX( 0px) translateY( 0px) rotate(360deg);
-                transform: translateX( 0px) translateY( 0px) rotate(360deg);
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+
+
+.bus {
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-animation: drive 1s infinite linear;
+            animation: drive 1s infinite linear;
+}
+@keyframes drive {
+    0% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(1deg);
+                transform: rotate(1deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+}
+
+svg#dolphin {
+    -webkit-transform-origin: 50% 300%;
+            transform-origin: 50% 300%;
+    -webkit-transform-style: preserve-3D;
+            transform-style: preserve-3D;
+    -webkit-animation: swim 4s infinite ease-in-out;
+            animation: swim 4s infinite ease-in-out;
+}
+
+@-webkit-keyframes swim {
+    0% {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+    100% {
+        -webkit-transform: rotate(  0deg);
+                transform: rotate(  0deg);
     }
 }
