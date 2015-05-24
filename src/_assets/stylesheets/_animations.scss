@@ -194,17 +194,28 @@ svg#plane {
     }
 }
 
-@keyframes snooze {
+
+.wheels {
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-animation: roll 10s infinite linear;
+            animation: roll 10s infinite linear;
+    -webkit-animation: roll 10s infinite linear;
+            animation: roll 10s infinite linear;
+}
+@keyframes rollroll {
     0% {
         -webkit-transform: translateX( 0px) translateY( 0px) rotate(0deg);
                 transform: translateX( 0px) translateY( 0px) rotate(0deg);
     }
-    70% {
-        -webkit-transform: translateX(-1px) translateY( 1px) rotate(5deg);
-                transform: translateX(-1px) translateY( 1px) rotate(5deg);
+    50% {
+        -webkit-transform: translateX(-5px) translateY( 5px) rotate(180deg);
+                transform: translateX(-5px) translateY( 5px) rotate(180deg);
     }
     100% {
-        -webkit-transform: translateX( 0px) translateY( 0px) rotate(0deg);
-                transform: translateX( 0px) translateY( 0px) rotate(0deg);
+        -webkit-transform: translateX( 0px) translateY( 0px) rotate(360deg);
+                transform: translateX( 0px) translateY( 0px) rotate(360deg);
     }
 }
