@@ -1,6 +1,6 @@
 ---
 layout         : post
-title          : "find rooms and prepare for evening"
+title          : "Find rooms and prepare for evening"
 
 hashtags       : ["FuturesForum", "unparalleledLuxury"]
 mentions       : ["architectureBVN"]

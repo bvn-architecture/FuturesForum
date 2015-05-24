@@ -1,6 +1,6 @@
 ---
 layout         : post
-title          : "afternoon tea"
+title          : "Afternoon Tea"
 
 hashtags       : ["FuturesForum", "madhatter"]
 mentions       :
