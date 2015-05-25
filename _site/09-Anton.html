@@ -34,7 +34,7 @@
   <meta name="description" content="Anton runs the Office Envisioning team in Microsoft, creating next generation prototypes and videos that portray a vision of the future of productivity. He p...">
 
     <style>/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}</style>
-           <link rel="stylesheet" href="/assets/main-97d2ac12d51d9c9819a6289cd77b7bdc.css">
+           <link rel="stylesheet" href="/assets/main-7d2e68132d78dd9c21daae84793f72a9.css">
   
 
   <link rel="canonical" href="http://bvn-architecture.github.io//09-Anton.html">
@@ -67,7 +67,7 @@
     <h1>Anton Andrews</h1>
     <!-- <a href="https://twitter.com/intent/tweet?button_hashtag=LS&text=%23FuturesForum" class="twitter-hashtag-button" data-size="large" data-related="notionparallax">Tweet #LS</a> -->
     <article class="post-content">
-    <p>Anton runs the Office Envisioning team in Microsoft, creating next generation prototypes and videos that portray a vision of the future of productivity. He previously founded the Design Strategy team in Microsoft’s Entertainment Division, focused on next gen experiences for Xbox, Zune and Windows Phone. Before coming to Microsoft, Anton was a creative director in design research at Philips Design in the Netherlands. He will be introduced by <a href="http://twitter.com/TODO" target="_blank">TODO</a>.</p>
+    <p>Anton runs the Office Envisioning team in Microsoft, creating next generation prototypes and videos that portray a vision of the future of productivity. He previously founded the Design Strategy team in Microsoft’s Entertainment Division, focused on next gen experiences for Xbox, Zune and Windows Phone. Before coming to Microsoft, Anton was a creative director in design research at Philips Design in the Netherlands. He will be introduced by <a href="http://twitter.com/nickflutter" target="_blank">Nick Flutter</a>.</p>
 
 <picture>
     <source srcset="/generated/anton-1050by591-af3e7a.jpg" media="(min-width: 40em) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 40em) and (min-resolution: 144dpi)" />
@@ -298,6 +298,7 @@ $(document).ready(function() {
         convertedTime = timeInEms();
         // console.log(convertedTime); XXXX
         $(".time-marker").css("top", convertedTime + "rem");
+        $(".time-marker .time span").html(new Date(Date.now()).toTimeString().substring(0,5));
     }
     var pointArrow = function() {
         var jumpRectangle = document.getElementById("jump-button").getBoundingClientRect();
