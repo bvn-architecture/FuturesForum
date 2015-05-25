@@ -10,7 +10,7 @@ twitter-widget-id: 601216209049128960
 date           : 2015-05-29 17:30:00 +10:00
 length         :            02:00:00
                           # hh:mm:ss
-gradient       : eight-an-a-half
+gradient       : twelve
 
 ---
 

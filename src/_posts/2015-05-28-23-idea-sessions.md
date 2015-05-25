@@ -13,7 +13,7 @@ CPD-type       : Formal
 date           : 2015-05-29 10:45:00 +10:00
 length         :            02:15:00
                           # hh:mm:ss
-gradient       : five
+gradient       : noon
 
 ---
 

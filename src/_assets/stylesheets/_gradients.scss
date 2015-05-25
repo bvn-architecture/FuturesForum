@@ -9,11 +9,11 @@
 .eight          { background: linear-gradient(to bottom, rgba(151, 187, 191, 1) 0%,  rgba(192, 177, 145, 1) 100%); }
 .eight-an-a-half{ background: linear-gradient(to bottom, rgba(192, 177, 145, 1) 0%,  rgba(235, 148,  64, 1) 100%); }
 .nine           { background: linear-gradient(to bottom, rgba(192, 177, 145, 1) 0%,  rgba(192, 177, 145, 1) 100%); }
-.ten            { background: linear-gradient(to bottom, rgba(192, 177, 145, 1) 0%,  rgba(235, 148, 64, 1) 100%); }
-.eleven         { background: linear-gradient(to bottom, rgba(235, 148, 64, 1)  0%,  rgba(235, 148, 64, 1) 100%); }
+.ten            { background: linear-gradient(to bottom, rgba(192, 177, 145, 1) 0%,  rgba(235, 148,  64, 1) 100%); }
+.eleven         { background: linear-gradient(to bottom, rgba(235, 148, 64, 1)  0%,  rgba(235, 148,  64, 1) 100%); }
 .twelve         { background: linear-gradient(to bottom, rgba(235, 148, 64, 1)  0%,  rgba(156, 109, 124, 1) 100%); }
-.thirteen       { background: linear-gradient(to bottom, rgba(156, 109, 124, 1) 0%, rgba( 49, 75, 155, 1) 50%, rgba( 0, 0, 0, 1) 100%); }
-
+.thirteen       { background: linear-gradient(to bottom, rgba(156, 109, 124, 1) 0%,  rgba( 49,  75, 155, 1) 50%, rgba( 0, 0, 0, 1) 100%); }
+.midnight       { background-color: black; }
 
 @media print {
     @page {

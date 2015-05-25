@@ -13,6 +13,15 @@ length           :            08:00:00
 gradient         : one
 
 ---
+
+{% include pt-bus.svg %}
+{% include pt-campfire.svg %}
+{% include pt-dolphing.svg %}
+{% include pt-plane.svg %}
+{% include pt-sleep.svg %}
+{% include pt-taxi.svg %}
+
+
 <div class="logo-box">
 {% include futures_forum_logo_bw.svg %}
 
