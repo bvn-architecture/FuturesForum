@@ -17,6 +17,10 @@ gradient       : five
 
 ---
 
+{% picture blueview.jpg alt="the tangalooma wrecks from high up" title="" %}
+
+
+
 TODO
 
 <div class="the-map">{% include ff-map.svg %}</div>

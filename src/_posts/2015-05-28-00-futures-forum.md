@@ -15,6 +15,10 @@ gradient         : one
 ---
 <div class="logo-box">
 {% include futures_forum_logo_bw.svg %}
+
+<p class="title">Moreton Island</p>
+
+<p class="date">May 28-29 2015</p>
 </div>
 
 Welcome to the Futures Forum!
@@ -25,11 +29,11 @@ This event is the culmination of all the warmup events and activities that have 
 
 ## How to use this web app ##
 
-This has all the info on what's going on. Here's how to get the most out of it.
+This app has all the info on what's going on. Here's how to get the most out of it:
 
 ### Tap to expand cards ###
 
-Each session and thing that happens has a card. You can tap to expand it and see all the details about that thing!
+Each session and event happens has a card, even breaks and meals. You can tap to expand it and see all the details about that thing!
 
 ### Tweet automagically ###
 

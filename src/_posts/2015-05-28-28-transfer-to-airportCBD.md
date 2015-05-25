@@ -14,6 +14,8 @@ gradient       : eight-an-a-half
 
 ---
 
+{% include bus.svg %}{: class="return-bus"}
+
 Grab your bag and put it onto the coach that's going where you are going
 
 <div class="the-map">{% include ff-map.svg %}</div>

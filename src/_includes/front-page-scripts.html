@@ -87,11 +87,30 @@ $(document).ready(function() {
         $("#jump-button").css("transform", "rotate(" + angle + "rad)");
     };
 
+    var showFirstCardTweets = function(){
+        var twitterWidgetParent = $("#futures-forum").find('.ff-twitter-widget');
+        var twitterWidget = $('<a href="">')
+          .addClass('twitter-timeline')
+          .attr('width','')
+          .attr('height','')
+          .attr('data-widget-id', twitterWidgetParent.data('widget-id'))
+          .attr('data-theme','light')
+          .attr('data-link-color','rgba(150,150,150,1)')
+          .attr('data-chrome','noheader nofooter noborders transparent noscrollbar')
+          .attr('data-tweet-limit','20')
+          .attr('data-aria-polite','polite')[0];
+         console.log('created: ', twitterWidget);
+        twitterWidgetParent.append(twitterWidget);
+        try {
+            twttr.widgets.load(twitterWidgetParent[0]);
+        }catch(e){console.log(e);}
+    };
+
     //start doing real stuff
     if (weAreInTheMagicTimeWindow()) {
         console.log("We Are In The Magic Time Window");
     }
-    setInitialVisibility()
+
 
 
     if (/(iPhone|iPad|iPod)/g.test(navigator.userAgent)) {
@@ -110,6 +129,8 @@ $(document).ready(function() {
     }
 
     var exchangeRate = 20; //ems per hour
+    setInitialVisibility();
+    showFirstCardTweets();
     moveMarker();
     pointArrow();
     window.setInterval(moveMarker, 30000);

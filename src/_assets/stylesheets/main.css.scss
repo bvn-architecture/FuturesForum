@@ -139,26 +139,45 @@ p {
   padding: 0.1em 0;
 }
 .card:after {
-  content: "↯";
-  font-size: 200%;
+  content: "❱";
   position: absolute;
-  bottom: 0;
+  width: 1.4em;
+  height: 1.4em;
+  border-radius: 50%;
+  bottom: 0.2em;
+  right: 50%;
   display: block;
   text-align: center;
-  width: 100%;
-  color: rgba(0,35,255,1);
+  font-size: 150%;
+  color: #0023ff;
+  background-color: rgba(255,255,255,0.8);
+  margin: auto;
+  transform: rotate(90deg);
+  line-height: 1.25;
 }
+.live-one:after {display: none;}
+
 .logo-box.logo-box{
-    padding-top: 4em;
-    padding-bottom: 4em;
-    background-image: url("../static/background.svg");
-    background-size: 4em;
-    width: 100%;
+  padding-top: 4em;
+  padding-bottom: 1em;
+  background-image: url("../static/background.svg");
+  background-size: 4em;
+  width: 100%;
+  margin-bottom: 1em;
+  p{
+    text-align: center;
+    &.title {
+      font-size: 250%;
+    }
+    &.date{
+      font-size: 180%;
+    }
+  }
 }
 
 .time-marker{
     .time {
-      width: 7em;
+      width: 30%;
       background-color: rgba(0,35,255,1);
       color: white;
       text-align: center;
@@ -166,8 +185,12 @@ p {
       z-index: 3000;
     }
     .line {
+      width: 35%;
       border-top: 3px solid rgba(0,35,255,1);
-      transform: translateY(-0.7em);
+      transform: translateY(-0.9em);
+    }
+    .right{
+      float: right;
     }
 }
 
@@ -201,4 +224,8 @@ p.bed-mate{
 
 .fun-icon{
   padding: 0 3em;
+}
+#futures-forum .start-time{display: none;}
+.return-bus {
+  transform: scale(-1, 1);
 }
