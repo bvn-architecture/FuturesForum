@@ -1,0 +1,11 @@
+CACHE MANIFEST
+# this one is sacrificial
+
+#external js (our js is embedded)
+https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js
+https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.map
+
+http://platform.twitter.com/widgets.js
+
+NETWORK:
+*
