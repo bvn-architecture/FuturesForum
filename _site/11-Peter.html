@@ -180,7 +180,14 @@
 
 <script type="text/javascript">
 $(document).ready(function() {
-console.log("here we go");
+
+    // real dates
+    // window.timeStart = new Date(Date.parse("Tue May 28 2015 00:00:01 GMT+1000"));
+    // window.timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
+    // debug dates 
+    window.timeStart = new Date(Date.parse("Tue May 24 2015 00:00:01 GMT+1000"));
+    window.timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
+    console.log("here we go");
     console.log(navigator);
 
     ///functions///
@@ -196,15 +203,9 @@ console.log("here we go");
     };
 
     var weAreInTheMagicTimeWindow = function() {
-        var now = new Date(Date.now());
-        // real dates
-        // var timeStart = new Date(Date.parse("Tue May 28 2015 00:00:01 GMT+1000"));
-        // var timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
-        // debug dates 
-        var timeStart = new Date(Date.parse("Tue May 24 2015 00:00:01 GMT+1000"));
-        var timeEnd = new Date(Date.parse(  "Tue May 29 2015 23:59:59 GMT+1000"));
+        var now = new Date(Date.now());        
 
-        if ((now > timeStart) && (now < timeEnd)) {
+        if ((now > window.timeStart) && (now < window.timeEnd)) {
             return true;
         } else {
             return false;
@@ -246,7 +247,14 @@ console.log("here we go");
     var moveMarker = function() {
         convertedTime = timeInEms();
         // console.log(convertedTime); XXXX
-        $(".time-marker").css("top", convertedTime + "rem");
+        var bump;
+        if (Date.now() > window.timeStart.valueOf()+86400000){
+            bump = 24*exchangeRate;
+        }else{
+            bump=0;
+        }
+
+        $(".time-marker").css("top", (convertedTime + bump) + "rem");
         $(".time-marker .time span").html(new Date(Date.now()).toTimeString().substring(0,5));
     }
     var pointArrow = function() {
