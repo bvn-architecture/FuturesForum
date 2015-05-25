@@ -135,9 +135,6 @@ p {
         border-bottom: 1px solid black;
     }
 }
-.card {
-  padding: 0.1em 0;
-}
 .card:after {
   content: "❱";
   position: absolute;
@@ -154,6 +151,7 @@ p {
   margin: auto;
   transform: rotate(90deg);
   line-height: 1.25;
+  font-family: sans-serif;//fallback becaue char not available on ios
 }
 .live-one:after {display: none;}
 

@@ -3,20 +3,20 @@ layout         : post
 title          : "Futures Discourse"
 
 hashtags       : ["FuturesForum", "thinking"]
-mentions       : ["architectureBVN"]
+mentions       : ["MelanieMury"]
 tweet-text     :
 twitter-widget-id: 601215537612357632
 
 CPD-points     : 1
 CPD-type       : Formal
 
-date           : 2015-05-29 13:45:00 +10:00
-length         :            01:00:00
+date           : 2015-05-29 14:00:00 +10:00
+length         :            00:45:00
                           # hh:mm:ss
 gradient       : six
 
 ---
 
-TODO: what happens here? What's the difference?
+Mel's going to cross examine the speakers to hear all about what happened in the workshops. This is going to be very interactive so tweet lots of questions and comments and we'll roll them into the conversation.
 
 <div class="the-map">{% include ff-map.svg %}</div>

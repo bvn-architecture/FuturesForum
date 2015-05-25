@@ -31,6 +31,6 @@ There is a bus coming from the Brisbane studio. Renae and Kae will herd you onto
 {% include car.svg %}
 
 If you are driving to Holt Street Wharf, parking is available but it's not undercover. If you have booked parking 
-[Lucas_Berlin](https://goo.gl/maps/d1NZE){:target="_blank"} follow this link to see a map of the wharf's location</a>.
+[follow this link to see a map of the wharf's location](https://goo.gl/maps/d1NZE){:target="_blank"} .
 
 Whichever you are getting to Holt Street Wharf, make sure you are on time. The ferry won't wait!

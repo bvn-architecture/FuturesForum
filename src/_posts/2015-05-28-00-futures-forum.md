@@ -96,12 +96,14 @@ During the event if you want to jump to what's happening right now just press th
 * Phone charger cable
 * camera
 * ID for flying (Your ID, not anyone else's. It needs to have the same name as your booking.)
+* your brain
 
 ## What *not* to pack? ##
 
 * laptop
 * pets
 * towels
+* frowny face
 
 <div class="day-marker">
 <h2>Day One</h2>
