@@ -5,7 +5,7 @@ title          : "Guest Panel Discussion"
 hashtags       : ["FuturesForum", "allthebrains"]
 mentions       : 
 tweet-text     :
-twitter-widget-id: 601214892184457216
+twitter-widget-id: 602831879645966336
 
 CPD-points     : 1
 CPD-type       : informal

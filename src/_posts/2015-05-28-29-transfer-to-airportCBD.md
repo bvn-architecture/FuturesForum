@@ -14,7 +14,7 @@ gradient       : twelve
 
 ---
 
-{% include bus.svg %}{: class="return-bus"}
+{% include pt-bus.svg %}{: class="return-bus"}
 
 Grab your bag and put it onto the coach that's going where you are going
 

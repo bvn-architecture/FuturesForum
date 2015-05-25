@@ -136,22 +136,17 @@ p {
     }
 }
 .card:after {
-  content: "❱";
+  content: url("../static/down-arrow.svg");///"\2771 ❱ >";
   position: absolute;
   width: 1.4em;
   height: 1.4em;
   border-radius: 50%;
   bottom: 0.2em;
   right: 50%;
-  display: block;
-  text-align: center;
-  font-size: 150%;
-  color: #0023ff;
+  font-size: 130%;
   background-color: rgba(255,255,255,0.8);
   margin: auto;
-  transform: rotate(90deg);
-  line-height: 1.25;
-  font-family: sans-serif;//fallback becaue char not available on ios
+  padding: 7px;
 }
 .live-one:after {display: none;}
 

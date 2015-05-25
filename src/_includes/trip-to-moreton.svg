@@ -1,4 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 660 774">
   <image y="-69.781" x="-92.758" xlink:href="../static/port-of-brisbane.png" preserveAspectRatio="none" height="1010.71" width="768.3"/>
-  <path id="boat-trip" d="M129.476 677.324c47.933-27.72 50.196-33.634 31.167-53.13-24.378-12.382 19.235-62.832 21.91-87.503 26.743-76.97 209.116-105.058 281.016-234.973 18.206-1.11-13.373-41.95 3.908-43.428 15.018-7.855 13.372 15.707 11.11 20.79" fill="none" stroke="#ff0" stroke-width="9.749" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="633.68834649, 633.68834649" stroke-dashoffset="1"/>
+  <path id="boat-trip" 
+  	    d="M129.476 677.324c47.933-27.72 50.196-33.634 31.167-53.13-24.378-12.382 19.235-62.832 21.91-87.503 26.743-76.97 209.116-105.058 281.016-234.973 18.206-1.11-13.373-41.95 3.908-43.428 15.018-7.855 13.372 15.707 11.11 20.79" 
+  	    fill="none" 
+  	    stroke="#ff0" 
+  	    stroke-width="9.749" 
+  	    stroke-linecap="round" 
+  	    stroke-linejoin="round" 
+  	    stroke-dasharray="629.4679565429688, 629.4679565429688" 
+  	    stroke-dashoffset="1"/>
 </svg>

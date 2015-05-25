@@ -5,7 +5,7 @@ title          : "Futures Discourse"
 hashtags       : ["FuturesForum", "thinking"]
 mentions       : ["MelanieMury"]
 tweet-text     :
-twitter-widget-id: 601215537612357632
+twitter-widget-id: 602833030667874304
 
 CPD-points     : 1
 CPD-type       : Formal

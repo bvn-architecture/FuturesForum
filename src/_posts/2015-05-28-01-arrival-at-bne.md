@@ -12,7 +12,8 @@ length         :            02:15:00
                           # hh:mm:ss
 gradient       : two
 ---
-{% include plane.svg %}
+
+{% include pt-plane.svg %}
 
 People will arrive from
 
@@ -24,11 +25,11 @@ On arrival you'll be met by Ben or Mel and they'll take you to the coach.
 
 Staff from Tangalooma will be waiting with the Coach to tag your luggage and transfer you to Holt Street Wharf ready to cross to Moreton Island.
 
-{% include bus.svg %}
+{% include pt-bus.svg %}
 
 There is a bus coming from the Brisbane studio. Renae and Kae will herd you onto it. Meet in the studio at 8:15, the coach will pull away at 8:45 with or without you!
 
-{% include car.svg %}
+{% include pt-taxi.svg %}
 
 If you are driving to Holt Street Wharf, parking is available but it's not undercover. If you have booked parking 
 [follow this link to see a map of the wharf's location](https://goo.gl/maps/d1NZE){:target="_blank"} .
