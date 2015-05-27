@@ -14,11 +14,9 @@ gradient         : one
 
 ---
 <div class="logo-box">
-{% include futures_forum_logo_bw.svg %}
-
-<p class="title">Moreton Island</p>
-
-<p class="date">May 28-29 2015</p>
+    {% include futures_forum_logo_bw.svg %}
+    <p class="title">Moreton Island</p>
+    <p class="date">May 28-29 2015</p>
 </div>
 
 Welcome to the Futures Forum!
@@ -33,7 +31,7 @@ This app has all the info on what's going on. Here's how to get the most out of 
 
 ### Tap to expand cards ###
 
-Each session and event happens has a card, even breaks and meals. You can tap to expand it and see all the details about that thing!
+Each session and event that happens has a card - even breaks and meals. You can tap to expand it and see all the details about that thing!
 
 ### Tweet automagically ###
 
@@ -104,6 +102,10 @@ During the event if you want to jump to what's happening right now just press th
 * pets
 * towels
 * frowny face
+
+Tangalooma is part of Australia, so if there's something really wrong dial **000** and the island's paramedics will whizz over and help.
+
+If things are only a little bit wrong, or you just want a chat, call Mel Mury on: 0404 035 068
 
 <div class="day-marker">
 <h2>Day One</h2>

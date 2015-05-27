@@ -4,11 +4,11 @@
 $(document).ready(function() {
 
     // real dates
-    // window.timeStart = new Date(Date.parse("Tue May 28 2015 00:00:01 GMT+1000"));
-    // window.timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
-    // debug dates 
-    window.timeStart = new Date(Date.parse("Tue May 24 2015 00:00:01 GMT+1000"));
+    window.timeStart = new Date(Date.parse("Tue May 28 2015 00:00:01 GMT+1000"));
     window.timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
+    // debug dates
+    // window.timeStart = new Date(Date.parse("Tue May 24 2015 00:00:01 GMT+1000"));
+    // window.timeEnd   = new Date(Date.parse("Tue May 29 2015 23:59:59 GMT+1000"));
     console.log("here we go");
     console.log(navigator);
 
@@ -189,7 +189,9 @@ $(document).ready(function() {
         // console.log('created: ', twitterWidget);
         twitterWidgetParent.append(twitterWidget);
         twttr.widgets.load(twitterWidgetParent[0]);
-        // console.log('appended to: ', twitterWidgetParent);
+
+        ga('send', 'event', 'card', 'expand', newCard.id);
+
         if (typeof setCardState === "function") { setCardState("in"); }
       };
       this.manage = function(newCard) {

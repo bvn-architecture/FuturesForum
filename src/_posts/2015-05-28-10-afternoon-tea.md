@@ -14,6 +14,6 @@ gradient       : seven
 
 ---
 
-{% include tea.svg %}
+{% include pt-cup.svg %}
 
 Take a moment to absorb what's happened so far!

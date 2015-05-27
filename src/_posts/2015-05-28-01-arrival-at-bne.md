@@ -8,7 +8,7 @@ tweet-text     :
 twitter-widget-id: 601202438259888128
 
 date           : 2015-05-28 08:00:00 +10:00
-length         :            02:15:00
+length         :            02:00:00
                           # hh:mm:ss
 gradient       : two
 ---
@@ -34,4 +34,4 @@ There is a bus coming from the Brisbane studio. Renae and Kae will herd you onto
 If you are driving to Holt Street Wharf, parking is available but it's not undercover. If you have booked parking 
 [follow this link to see a map of the wharf's location](https://goo.gl/maps/d1NZE){:target="_blank"} .
 
-Whichever you are getting to Holt Street Wharf, make sure you are on time. The ferry won't wait!
+Whichever way you are getting to Holt Street Wharf, make sure you are on time. The ferry won't wait!

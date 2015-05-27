@@ -5,7 +5,7 @@ layout: default
 <div class="stack-layer">
   <div><h1>Day 1</h1></div>
   {% for post in site.posts reversed  %}
-  {% if post.title == "mysterious things!" %}
+  {% if post.title == "Sleeping (hopefully)" %}
   <div><h1>Day 2</h1></div>
   {% else %}
   <div>{{ post.date | date: "%H:%M" }} - {{ post.title }}</div>

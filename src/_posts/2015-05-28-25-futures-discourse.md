@@ -17,6 +17,6 @@ gradient       : six
 
 ---
 
-Mel's going to cross examine the speakers to hear all about what happened in the workshops. This is going to be very interactive so tweet lots of questions and comments and we'll roll them into the conversation.
+Mel Mury is going to cross examine the speakers to hear all about what happened in the workshops. This session is going to be very interactive so tweet lots of questions and comments and we'll roll them into the conversation.
 
 <div class="the-map">{% include ff-map.svg %}</div>

@@ -60,10 +60,10 @@
   </g>
   <g>
     <use class="flensing-deck" width="8.4" height="8.4" x="-4.2" y="-4.2" xlink:href="#c" transform="matrix(2.63 0 0 -2.63 390.93 44.021)" overflow="visible"/>
-    <use class=""              width="8.4" height="8.4" x="-4.2" y="-4.2" xlink:href="#c" transform="matrix(2.63 0 0 -2.63 389.655 539.778)" overflow="visible"/>
+    <use class="breakfast"     width="8.4" height="8.4" x="-4.2" y="-4.2" xlink:href="#c" transform="matrix(2.63 0 0 -2.63 389.655 539.778)" overflow="visible"/>
     <use class="marquee"       width="8.4" height="8.4" x="-4.2" y="-4.2" xlink:href="#c" transform="matrix(2.63 0 0 -2.63 331.912 506.476)" overflow="visible"/>
     <use class="beach"         width="8.4" height="8.4" x="-4.2" y="-4.2" xlink:href="#c" transform="matrix(2.63 0 0 -2.63 284.604 507.352)" overflow="visible"/>
-    <use class=""              width="8.4" height="8.4" x="-4.2" y="-4.2" xlink:href="#c" transform="matrix(2.63 0 0 -2.63 337.129 722.706)" overflow="visible"/>
+    <use class="deepblue"      width="8.4" height="8.4" x="-4.2" y="-4.2" xlink:href="#c" transform="matrix(2.63 0 0 -2.63 337.129 722.706)" overflow="visible"/>
     <use class="dolphins"              width="8.4" height="8.4" x="-4.2" y="-4.2" xlink:href="#c" transform="matrix(2.63 0 0 -2.63 250.462 712.201)" overflow="visible"/>
   </g>
 </svg>
